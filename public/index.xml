@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bargava Subramanian on Blogophonic</title>
+    <link>/</link>
+    <description>Recent content in Bargava Subramanian on Blogophonic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 03 Nov 2019 12:27:33 -0600</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Sun, 03 Nov 2019 13:38:41 -0600</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>** Contact page don&amp;rsquo;t contain a body, just the front matter above. See form.html in the layouts folder **</description>
+    </item>
+    
+    <item>
+      <title>Newsletter</title>
+      <link>/newsletter/</link>
+      <pubDate>Tue, 19 Feb 2019 14:47:22 -0600</pubDate>
+      
+      <guid>/newsletter/</guid>
+      <description>Newsletter  Sign up to my newsletter to get regular updates to your email directly.  Past Newsletters Coming soon  </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 18 Feb 2019 12:27:33 -0600</pubDate>
+      
+      <guid>/about/</guid>
+      <description>About me  Coming soon. </description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>/talks/</link>
+      <pubDate>Mon, 18 Feb 2019 12:27:33 -0600</pubDate>
+      
+      <guid>/talks/</guid>
+      <description>Talks  Upcoming Talks Privacy-preserving models using Federated Learning Federated learning is a family of Machine Learning algorithms that has the core idea: a connected network exists in which there is a central server node. Each of the nodes creates data – that has to be used for training as well as for prediction. Each of the nodes trains a local model and only that model is shared with the server, not the data.</description>
+    </item>
+    
+    <item>
+      <title>Workshops</title>
+      <link>/workshops/</link>
+      <pubDate>Mon, 18 Feb 2019 12:27:33 -0600</pubDate>
+      
+      <guid>/workshops/</guid>
+      <description>Workshops  Upcoming Workshops Recommendation Systems using Deep Learning Recommendation systems play a significant role—for users, a new world of options; for companies, it drives engagement and satisfaction. We walk you through the different paradigms of recommendation systems and introduce you to deep learning-based approaches. You&#39;ll gain the practical hands-on knowledge to build, select, deploy, and maintain a recommendation system. More info  Details Venue: CA, USA Date: March 2020   </description>
+    </item>
+    
+  </channel>
+</rss>
