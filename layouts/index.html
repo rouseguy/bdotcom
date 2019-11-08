@@ -1,0 +1,30 @@
+{{ define "main" }}
+<main class="page-main pa4" role="main">
+  <section class="page-content mw8 center">
+    <div class="flex-l items-center">
+      <div class="mh5-l w-0-6l">
+        {{ with .Params.title }}<h1 class="f2 tracked-tight fw7 ttu tracked lh-title mt12 mb3 avenir">{{ . }}</h1>{{ end }}
+        {{ with .Params.subtitle }}<h2 class="f5 fw7 f-subheadline-m measure mv0 ttu tracked">{{ . }}</h2>{{ end }}
+        {{ with .Params.description }}<p class="f4 measure mv4 lh-copy black-60">{{ . | markdownify }}</p>{{ end }}
+        {{ if .Params.show_action_link }}<a class="action {{ .Params.action_type }}" href="{{ .Params.action_link }}">{{ .Params.action_label | safeHTML }}</a>{{ end }}
+      </div>
+      <div class="pa4 tl">
+        {{ with .Params.images }}
+          {{ range first 1 . }}<img class="br-100 h5 w10 dib" src="{{ . }}"/>{{ end }}
+        {{ end }}
+        <br> <br />
+        <a class="f3 fw6 db blue no-underline underline-hover" href="/newsletter">Subscribe to Newsletter</a>
+        <p class="f4 fw6 lh-copy">Upcoming Workshops
+        <a class="f6 fw6 db blue no-underline underline-hover" href="/workshops">Recommendation Systems using Deep Learning</a>
+        <span class="f7 ">Mar 2020, CA, USA</span>
+        </p>
+        <p class="f4 fw6 lh-copy">Upcoming Talks
+        <a class="f6 fw6 db blue no-underline underline-hover" href="/talks">Privacy preserving models using Federated Learning</a>
+        <span class="f7">13-Nov-2019, Bangalore, India</span>
+        </p>
+      </div>
+    </div>
+  </section>
+  
+</main>
+{{ end }}

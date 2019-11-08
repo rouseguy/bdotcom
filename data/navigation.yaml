@@ -1,0 +1,27 @@
+header:
+  - name: Home
+    title: Home
+    url: /
+  - name: Blog
+    title: Blog
+    url: /blog/
+  - name: Workshops
+    title: Workshop Page
+    url: /workshops/
+  - name: Talks
+    title: My Talks
+    url: /talks/
+  - name: Newsletter
+    title: Newsletter Signup
+    url: /newsletter/
+  - name: About
+    title: About me
+    url: /about/
+  - name: Contact
+    title: Contact Form
+    url: /contact/
+
+footer:
+  - name: RSS
+    title: RSS Feed
+    url: /feed.xml
