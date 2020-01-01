@@ -44,7 +44,7 @@
       <pubDate>Mon, 18 Feb 2019 12:27:33 -0600</pubDate>
       
       <guid>/talks/</guid>
-      <description>Talks  Upcoming Talks Privacy-preserving models using Federated Learning Federated learning is a family of Machine Learning algorithms that has the core idea: a connected network exists in which there is a central server node. Each of the nodes creates data – that has to be used for training as well as for prediction. Each of the nodes trains a local model and only that model is shared with the server, not the data.</description>
+      <description>Talks  Recent Talks Privacy-preserving models using Federated Learning Federated learning is a family of Machine Learning algorithms that has the core idea: a connected network exists in which there is a central server node. Each of the nodes creates data – that has to be used for training as well as for prediction. Each of the nodes trains a local model and only that model is shared with the server, not the data.</description>
     </item>
     
     <item>

@@ -11,12 +11,12 @@ header:
   - name: Talks
     title: My Talks
     url: /talks/
-  - name: Newsletter
-    title: Newsletter Signup
-    url: /newsletter/
-  - name: About
-    title: About me
-    url: /about/
+  #  - name: Newsletter
+  #    title: Newsletter Signup
+  #    url: /newsletter/
+  # - name: About
+  #   title: About me
+  #   url: /about/
   - name: Contact
     title: Contact Form
     url: /contact/
