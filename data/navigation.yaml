@@ -14,9 +14,9 @@ header:
   #  - name: Newsletter
   #    title: Newsletter Signup
   #    url: /newsletter/
-  # - name: About
-  #   title: About me
-  #   url: /about/
+  - name: Notes
+    title: Notes
+    url: /notes/
   - name: Contact
     title: Contact Form
     url: /contact/

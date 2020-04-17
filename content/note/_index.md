@@ -1,7 +1,7 @@
 ---
-title: Blog
-description: "My learnings on startups and machine learning - brewed over time. Coming soon."
-author: ""
+title: Notes
+description: Summary/Notes of talks, blogs and books
+author: "Bargava"
 images:
   - https://via.placeholder.com/960x480?text=SECTION+IMAGE
 date: 2019-02-20T09:31:27-06:00

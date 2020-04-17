@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bargava Subramanian on Blogophonic</title>
+    <title>Bargava Subramanian on the ML engineer</title>
     <link>/</link>
-    <description>Recent content in Bargava Subramanian on Blogophonic</description>
+    <description>Recent content in Bargava Subramanian on the ML engineer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 03 Nov 2019 12:27:33 -0600</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to Crush it on Twitter</title>
+      <link>/note/create-twitter-audience/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/note/create-twitter-audience/</guid>
+      <description>David Perell and Matthew Kobach did a livestream on YouTube on &amp;ldquo;How to Crush it on Twitter&amp;rdquo;. Here are some notes from the seession.
+Who is the session for
+Anyone who wants to create an audience on twitter.
+Why bother about Twitter
+ You can build a network solely based on your clarity and quality of your thoughts.
+ Twitter is the instant writing improvement tool that has neer existed for mankind before.</description>
+    </item>
     
     <item>
       <title>Contact</title>
@@ -30,12 +44,12 @@
     </item>
     
     <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Mon, 18 Feb 2019 12:27:33 -0600</pubDate>
+      <title>Notes</title>
+      <link>/notes/</link>
+      <pubDate>Tue, 19 Feb 2019 14:47:22 -0600</pubDate>
       
-      <guid>/about/</guid>
-      <description>About me  Coming soon. </description>
+      <guid>/notes/</guid>
+      <description>Notes from content I consume  I listen to a good amount of talks and podcasts, read books and read a number of blog posts. In this section, I summarize my learnings. Build an audience on Twitter Why and how to build an audience on twitter? David Perell and Matthew Kobach did a livestream on &#34;How to Crush it on Twitter&#34;. Learn how to be a lighthouse for like-minded people.</description>
     </item>
     
     <item>
@@ -53,7 +67,7 @@
       <pubDate>Mon, 18 Feb 2019 12:27:33 -0600</pubDate>
       
       <guid>/workshops/</guid>
-      <description>Workshops  Upcoming Workshops Recommendation Systems using Deep Learning Recommendation systems play a significant role—for users, a new world of options; for companies, it drives engagement and satisfaction. We walk you through the different paradigms of recommendation systems and introduce you to deep learning-based approaches. You&#39;ll gain the practical hands-on knowledge to build, select, deploy, and maintain a recommendation system. More info  Details Venue: CA, USA Date: March 2020   </description>
+      <description>Workshops  Recent Workshops Recommendation Systems using Deep Learning Recommendation systems play a significant role—for users, a new world of options; for companies, it drives engagement and satisfaction. We walk you through the different paradigms of recommendation systems and introduce you to deep learning-based approaches. You&#39;ll gain the practical hands-on knowledge to build, select, deploy, and maintain a recommendation system. More info  Details Venue: New York City, USA Date: Sep 2019   </description>
     </item>
     
   </channel>

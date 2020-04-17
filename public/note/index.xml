@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on the ML engineer</title>
+    <link>/note/</link>
+    <description>Recent content in Notes on the ML engineer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 20 Feb 2019 09:31:27 -0600</lastBuildDate>
+    
+	<atom:link href="/note/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Crush it on Twitter</title>
+      <link>/note/create-twitter-audience/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/note/create-twitter-audience/</guid>
+      <description>David Perell and Matthew Kobach did a livestream on YouTube on &amp;ldquo;How to Crush it on Twitter&amp;rdquo;. Here are some notes from the seession.
+Who is the session for
+Anyone who wants to create an audience on twitter.
+Why bother about Twitter
+ You can build a network solely based on your clarity and quality of your thoughts.
+ Twitter is the instant writing improvement tool that has neer existed for mankind before.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,8 +1,8 @@
 baseURL = "/"
 languageCode = "en"
-title = "Blogophonic"
+title = "the ML engineer"
 author = "Bargava"
-description = "Observations on Data. Machine Learning. Cybersecurity. Startups"
+description = "Machine Learning. Enterpreneur. Facilitator."
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 disqusShortname = ""

@@ -26,6 +26,6 @@
   {{ .Scratch.Set "sidebar" .Site.Data.sidebar_content.blog.single_sidebar }}
   {{ partial "shared/sidebar-content.html" . }}
   {{ .Scratch.Set "details" "open" }}
-  {{ partial "shared/post-details.html" . }}
+  <!-- {{ partial "shared/post-details.html" . }} --> 
 </aside>
 {{ end }}
