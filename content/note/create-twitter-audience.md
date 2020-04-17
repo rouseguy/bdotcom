@@ -17,7 +17,7 @@ categories:
 layout: single
 ---
 
-[David Perell](https://twitter.com/david_perell) and [Matthew Kobach](https://twitter.com/mkobach) did a livestream on [YouTube](https://youtu.be/o9NxQ7aCUOw) on "How to Crush it on Twitter". Here are some notes from the seession.
+[David Perell](https://twitter.com/david_perell) and [Matthew Kobach](https://twitter.com/mkobach) did a livestream on [YouTube](https://youtu.be/o9NxQ7aCUOw) on "How to Crush it on Twitter". Here are some notes from the session.
 
 **Who is the session for**   
 Anyone who wants to create an audience on twitter.
