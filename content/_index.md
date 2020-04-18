@@ -5,6 +5,10 @@ description: "I am a Machine Learning Engineer. I love the creative power of sma
 <br><br>
 
 I derive great joy from enabling people and organizations embrace a data-centric view. I facilitate industry-oriented [workshops](workshops) in the field of Data Science and Machine Learning. My current goal in life is to get better at [deep work](https://www.calnewport.com/books/deep-work/) and be more thoughtful in life.  
+
+<br><br>
+
+I am reachable on [Twitter](https://twitter.com/bargava) and via the [contact form](/contact/)
 "
 date: 2019-11-03T12:27:33-06:00
 images:
