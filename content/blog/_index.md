@@ -1,14 +1,14 @@
 ---
-title: Blog
-description: "My learnings on startups and machine learning - brewed over time. Coming soon."
-author: ""
+title: "My thoughts and learnings"
+description: "Brewed over time"
+author: "Bargava"
 images:
   - https://via.placeholder.com/960x480?text=SECTION+IMAGE
 date: 2019-02-20T09:31:27-06:00
 publishDate: 2019-02-20T09:31:27-06:00
-layout: list-grid # list, list-sidebar, list-grid
+layout: list # list, list-sidebar, list-grid
 show_post_thumbnail: true
-show_author_byline: true
+show_author_byline: false
 show_post_date: false
 show_disqus_comments: false # see disqusShortname in site config
 ---

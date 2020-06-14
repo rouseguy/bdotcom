@@ -2,7 +2,7 @@
 title: "Built-in Contact Form"
 subtitle: "Form to email feature powered by Formspree"
 excerpt: "This theme has a form-to-email feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the form front matter."
-date: 2021-07-01
+date: 2030-06-01
 author: "Eric Anderson"
 draft: true
 images:
