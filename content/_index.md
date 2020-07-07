@@ -8,7 +8,7 @@ I derive great joy from enabling people and organizations embrace a data-centric
 
 <br><br>
 
-I am reachable on [Twitter](https://twitter.com/bargava) and via the [contact form](/contact/)
+I am reachable on [Twitter](https://twitter.com/bargava) and via the [contact form](/contact/).
 "
 date: 2019-11-03T12:27:33-06:00
 images:
