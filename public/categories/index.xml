@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on the ML engineer</title>
+    <title>Categories on A ML engineer</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on the ML engineer</description>
+    <description>Recent content in Categories on A ML engineer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
@@ -16,6 +16,15 @@
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/growth-hack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Startup Idea</title>
+      <link>/categories/startup-idea/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/startup-idea/</guid>
       <description></description>
     </item>
     

@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/disrupt-enterprise-search/</loc>
+    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/create-twitter-audience/</loc>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/note/create-twitter-audience/</loc>
     <lastmod>2020-04-16T00:00:00+00:00</lastmod>
   </url>
@@ -77,6 +87,18 @@
   </url>
   
   <url>
+    <loc>/categories/startup-idea/</loc>
+    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/series/startup-idea/</loc>
+    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
     <priority>0</priority>
   </url>
@@ -84,6 +106,12 @@
   <url>
     <loc>/tags/growth-hack/</loc>
     <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/startup-idea/</loc>
+    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
