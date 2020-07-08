@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal on A ML engineer</title>
+    <link>/tags/personal/</link>
+    <description>Recent content in Personal on A ML engineer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 08 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How I learned to suck less at Chess</title>
+      <link>/blog/suck-less-at-chess/</link>
+      <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/suck-less-at-chess/</guid>
+      <description>Access to knowledge isn’t nearly as difficult as the desire to learn Seth Godin
+ Growing up and going to school in the 1980s in the cold, sleepy town Ooty, weekends were not very exciting. One activity I looked forward to was poring over the weekly Saturday Sports Special edition that came with the English daily newspaper we got. It had two chess puzzles. And I used to spend a good hour or two that weekend trying to solve.</description>
+    </item>
+    
+  </channel>
+</rss>
