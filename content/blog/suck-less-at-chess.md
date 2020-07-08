@@ -2,6 +2,7 @@
 title: "How I learned to suck less at Chess"
 subtitle: "Chess is a skill and can be mastered"
 excerpt: "I write my journey from learning to love chess to learn to play and eventually to suck less when playing."
+description: "Chess is a skill and can be mastered"
 date: 2020-07-08
 author: "Bargava"
 draft: false
