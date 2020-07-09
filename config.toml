@@ -47,8 +47,6 @@ preserveTaxonomyNames = true
   # show/hide social icons in site header/footer
   socialInHeader = false
   socialInFooter = false
-  description = "Machine Learning. Enterpreneur. Facilitator."
-  images = "/img/profile.jpg"
 
 [social]
   # social accounts (username only)
