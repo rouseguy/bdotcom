@@ -18,9 +18,7 @@ categories:
 layout: single
 ---
 
-> _“Once you can name something, you’re conscious of it. You have power over it. You’re in control. You own it.”_
-
-[Robin Williams](https://www.amazon.com/Non-Designers-Design-Book-4th/dp/0133966151)
+> _“Once you can name something, you’re conscious of it. You have power over it. You’re in control. You own it.”_ <br> [Robin Williams](https://www.amazon.com/Non-Designers-Design-Book-4th/dp/0133966151)
 
 I am a technical co-founder at a startup. But then, I also spend a lot of time writing and designing - emails, content marketing, decks, updates to clients, dashboards, product feedback, product features - and the list goes on. These are non-traditional tasks for me; tasks that I hadn't done much in my corporate career and I don't have academic training in them. Writing code is one thing - but communicating, especially visually, is something I am still coming to grips with. A startup's biggest strength is agility. Its ability to change directions swiftly and innovate to meet customers' demands is a regular phenomenon. But a startup also has limited resources, especially in terms of access to talent and money. Good and experienced designers are almost always out of reach. It means I have to also double up as a designer. So, here I am: *I don't know what I don't know in design*!
 
