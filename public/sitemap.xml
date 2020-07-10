@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/lessons-from-pinboard/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/grammarly-for-design/</loc>
     <lastmod>2020-07-09T00:00:00+00:00</lastmod>
   </url>
@@ -92,19 +97,19 @@
   
   <url>
     <loc>/categories/personal/</loc>
-    <lastmod>2020-07-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/series/personal/</loc>
-    <lastmod>2020-07-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/personal/</loc>
-    <lastmod>2020-07-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -128,7 +133,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-07-09T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

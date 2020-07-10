@@ -6,10 +6,20 @@
     <description>Recent content in Personal on A ML engineer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/series/personal/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Startup lessons from Pinboard</title>
+      <link>/blog/lessons-from-pinboard/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/lessons-from-pinboard/</guid>
+      <description>It is faster to shrink the pond than become a bigger fish Aaron Ross
+ We live in a consumption economy. If you come across an interesting article, be it on Facebook or your favorite news site, you probably open it in a new tab and the article awaits your time and attention to be read. And at some point, you do get to it. Now and then, though, you will find an article that you want to save for future reference.</description>
+    </item>
     
     <item>
       <title>Need Grammarly for Design</title>
