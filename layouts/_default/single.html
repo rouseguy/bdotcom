@@ -8,7 +8,7 @@
         <!-- {{ if .CurrentSection.Params.show_author_byline }}<p class="f6 measure lh-copy mv1">{{ if .Params.author }}By {{ .Params.author }}{{ end }}{{ with .Params.categories }} in{{ range . }} <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}</p>{{ end }} -->
         <!-- {{ if .CurrentSection.Params.show_post_date }}<p class="f7 db mv0 ttu">{{ .PublishDate.Format "January 2, 2006" }}</p>{{ end }} -->
       </header>
-      <section class="post-body pt1 pb4">
+      <section class="post-body f4 pt1 pb4">
         {{ .Content }}
         {{ .Scratch.Set "details" "closed" }}
        <!-- {{ partial "shared/post-details.html" . }} -->

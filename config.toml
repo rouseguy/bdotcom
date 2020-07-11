@@ -13,7 +13,7 @@ pygmentsOptions = "linenos=table"
 pygmentsStyle = "friendly"
 footnoteReturnLinkContents = "&#8617;" # ↩
 # set deliberately low for testing choose your preffered number based on the blog layout you've chosen
-paginate = 6
+paginate = 10
 preserveTaxonomyNames = true
 
 [params]
