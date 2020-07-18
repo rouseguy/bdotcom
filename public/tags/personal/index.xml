@@ -6,10 +6,20 @@
     <description>Recent content in Personal on A ML engineer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Word Count of SaaS sites</title>
+      <link>/blog/saas-copy-counter/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/saas-copy-counter/</guid>
+      <description>Being approximately right at the right moment is better than being accurate after the moment has passed.
+ This is a fun weekend project for someone interested in doing a data science project. A problem I&amp;rsquo;ve been grappling with is what, how, and how much to write on the website of the SaaS product. For a SaaS company, the website is pretty much its sales copy. It is interesting and relevant to know how the market, and especially the competitors, present their sales copy.</description>
+    </item>
     
     <item>
       <title>Startup lessons from Pinboard</title>
