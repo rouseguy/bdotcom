@@ -1,13 +1,13 @@
 ---
 title: "Word Count of SaaS sites"
 subtitle: "Need insights from sales copy"
-excerpt: "Writing sales copy on a SaaS website takes time. Could we get some insights from other SaaS sites? I am happy to mentor if someone is interested in building a weekend project on this"
+excerpt: "Writing sales copy on a SaaS website takes time. Could we get some insights from other SaaS sites? I am happy to mentor if someone is interested in building a weekend project on this."
 description: "Word Count of SaaS sites"
 date: 2020-07-18
 author: "Bargava"
 draft: false
 images:
-  - /blog/assets/hway.png
+  - /blog/assets/saas-copy.jpg
 
 series:
   - weekend-hack
@@ -30,7 +30,7 @@ Scrape several popular SaaS companies' websites. Most of them have similar templ
 
 My technical stack would look something like this:
 
-- `jupyter notebook` as the coding environment and `python` as the coding language. 
+- `jupyter notebook` as the coding environment and `python` as the coding language.
 - Google Colab for development.
 - Scrape websites using `scrapy` or `beautiful soup`
 - `pandas`, `spacy` and `hugging face` to do text processing
@@ -45,6 +45,5 @@ All of the above services are available for free. The only advice and word of ca
 I am not sure if there is a micro-SaaS that can be built out of this. Maybe there is - but I am skeptical. One could get all fancy and use more detailed NLP models from `hugging face` to extract a variety of attributes to build insights on. But that's going to take more than a weekend to do.
 
 I am happy to help and mentor if someone is interested in building this as a weekend project.
-
 
 _I typically post on startups and Machine Learning. Please follow me on [twitter](https://twitter.com/bargava) for more articles._
