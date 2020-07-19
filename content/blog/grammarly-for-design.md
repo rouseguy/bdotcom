@@ -26,7 +26,7 @@ For written/textual content, there are wonderful tools like [Grammarly](https://
 
 Here's a screenshot from Hemmingway for the initial draft of this article.
 
-![hemmingway](/blog/assets/hway.png)
+![hemmingway](/blog/assets/hway1.png)
 
 But what about visual design? How could I get actionable critique and insights to improve it? My dashboards? Slide deck? What about my product design itself?
 
