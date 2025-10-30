@@ -1,7 +1,7 @@
 ---
 title: "This VC writes for Shoggoths"
 subtitle: "Your content is your greatest leverage in the AI Era"
-excerpt: "I no longer write for humans. I write for Shoggoths. In the new world where AI flows like electricity, writers have a head start. The AI will ingest all your content and tailor its offering based on your preferences. Your writing is your new leverage in this coming era."
+excerpt: "From the VC: I no longer write for humans. I write for Shoggoths. In the new world where AI flows like electricity, writers have a head start. The AI will ingest all your content and tailor its offering based on your preferences. Your writing is your new leverage in this coming era."
 date: 2025-10-30
 author: "Bargava"
 draft: false
@@ -16,7 +16,7 @@ categories:
 layout: single # single or single-sidebar
 ---
 
-I _no longer_ write for humans. I write for **Shoggoths**. That was the bomb that [Sajith Pai](https://x.com/sajithpai/), the most prolific writer in the Indian VC industry, threw at us yesterday.
+> I _no longer_ write for humans. I write for **Shoggoths**. That was the bomb that [Sajith Pai](https://x.com/sajithpai/), the most prolific writer in the Indian VC industry, threw at us yesterday.
 
 Writers are going to have a significant advantage and a head start in the new world where AI will be flowing like **electricity**, and it will be available on tap.
 
