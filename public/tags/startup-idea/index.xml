@@ -1,25 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>startup-idea on A ML engineer</title>
-    <link>/tags/startup-idea/</link>
-    <description>Recent content in startup-idea on A ML engineer</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Startup-Idea on A ML engineer</title>
+    <link>//localhost:1313/tags/startup-idea/</link>
+    <description>Recent content in Startup-Idea on A ML engineer</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 07 Jul 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/startup-idea/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="//localhost:1313/tags/startup-idea/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Disrupting Enterprise Search</title>
-      <link>/blog/disrupt-enterprise-search/</link>
+      <link>//localhost:1313/blog/disrupt-enterprise-search/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/disrupt-enterprise-search/</guid>
-      <description>We, human beings, are quite good at processing new information, but are terrible in storing them in long-term memory(LTM). LTM is finite and very limited. Many centuries ago, the printing press took a giant step in alleviating this problem. And then, distribution boomed. The number of printed content exploded.
-Humans are a sucker for information. How do you find if the information you are searching for exist in that book?</description>
+      <guid>//localhost:1313/blog/disrupt-enterprise-search/</guid>
+      <description>&lt;p&gt;We, human beings, are quite good at processing new information, but are &lt;em&gt;terrible&lt;/em&gt; in storing them in long-term memory(LTM). LTM is finite and very limited. Many centuries ago, the printing press took a giant step in alleviating this problem. And then, distribution boomed. The number of printed content exploded.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Humans are a sucker for information&lt;/em&gt;. How do you &lt;em&gt;find&lt;/em&gt; if the information you are searching for exist in that book? &lt;em&gt;Table of Contents&lt;/em&gt; listed the broad topic areas covered in the book. But a 300+ pages book has lot more keywords. This resulted in &amp;ldquo;&lt;em&gt;index&lt;/em&gt;&amp;rdquo;. Added to the end of the book, index provided a quick lookup on the word and the page(s) where it was discussed/explained.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,45 +1,53 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr"><head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Word Count of SaaS sites | A ML engineer</title>
-  <meta name="description" content="Word Count of SaaS sites" />
-   
-  
-<meta itemprop="name" content="Word Count of SaaS sites">
-<meta itemprop="description" content="Word Count of SaaS sites">
+<html lang="en" dir="ltr"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>
+        Word Count of SaaS sites | A ML engineer
+    </title>
+    <meta name="description" content="Word Count of SaaS sites" />
+    
+    
+  <meta itemprop="name" content="Word Count of SaaS sites">
+  <meta itemprop="description" content="Word Count of SaaS sites">
+  <meta itemprop="datePublished" content="2020-07-18T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2020-07-18T00:00:00+00:00">
+  <meta itemprop="wordCount" content="438">
+  <meta itemprop="image" content="//localhost:1313/blog/assets/saas-copy.jpg">
+  <meta itemprop="keywords" content="Personal"> 
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="//localhost:1313/blog/assets/saas-copy.jpg">
+  <meta name="twitter:title" content="Word Count of SaaS sites">
+  <meta name="twitter:description" content="Word Count of SaaS sites">
 
-
-<meta itemprop="datePublished" content="2020-07-18T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-07-18T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="438">
-
-  <meta itemprop="image" content="/blog/assets/saas-copy.jpg">
-
-
-
-<meta itemprop="keywords" content="Personal," />
-
-  <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="/blog/assets/saas-copy.jpg"/>
-
-<meta name="twitter:title" content="Word Count of SaaS sites"/>
-<meta name="twitter:description" content="Word Count of SaaS sites"/>
-<meta name="twitter:site" content="@bargava"/>
-
-  
-  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-  <link rel="shortcut icon" href="/img/favicon.svg?v=0" type="image/x-icon">
-  <link rel="icon" href="/img/favicon.svg?v=0" type="image/x-icon">
-  
-  
-  <link rel="stylesheet" href="/style.main.min.096f1fe3e279d1473c83f5c340efd1728320972499a103b32a8a4963caf17ec0.css" integrity="sha256-CW8f4&#43;J50Uc8g/XDQO/RcoMglySZoQOzKopJY8rxfsA=" media="screen">
+    
+    
+    <!--[if IE
+        ]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script
+    ><![endif]-->
+    
+    <link
+        rel="shortcut icon"
+        href="/img/favicon.svg?v=0"
+        type="image/x-icon"
+    />
+    <link rel="icon" href="/img/favicon.svg?v=0" type="image/x-icon" />
+     
+    <link
+        rel="stylesheet"
+        href="//localhost:1313/style.main.min.2309c0f68f18e500c8e20ad7ec6a8389a960eeb9a14e9049e262b437721cb3ea.css"
+        integrity="sha256-IwnA9o8Y5QDI4grX7GqDialg7rmhTpBJ4mK0N3Ics&#43;o="
+        media="screen"
+    />
 </head>
 <body>
       <div class="grid-container single"><header class="site-header pa4 bb b--transparent" role="banner">
   <nav class="site-nav db dt-l w-100" role="nav">
-    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="/" title="Home">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="//localhost:1313/" title="Home">
       <img src="/img/favicon.svg" class="dib db-l h2 w-auto" alt="A ML engineer">
     </a>
     <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l">
@@ -51,8 +59,6 @@
       <a class="link f6 f5-l dib pv1 ph2" href="/workshops/" title="Workshop Page">Workshops</a>
       
       <a class="link f6 f5-l dib pv1 ph2" href="/talks/" title="My Talks">Talks</a>
-      
-      <a class="link f6 f5-l dib pv1 ph2" href="/contact/" title="Contact Form">Contact</a>
       
       
     </div>
@@ -72,17 +78,11 @@
         <blockquote>
 <p>Being approximately right at the right moment is better than being accurate after the moment has passed.</p>
 </blockquote>
-
 <p>This is a fun weekend project for someone interested in doing a data science project. A problem I&rsquo;ve been grappling with is what, how, and how much to write on the website of the SaaS product. For a SaaS company, the website is pretty much its sales <a href="https://en.wikipedia.org/wiki/Copywriting">copy</a>. It is interesting and relevant to know how the market, and especially the competitors, present their sales copy.</p>
-
 <p>Let&rsquo;s start with &ldquo;How much&rdquo; to write. One way to quantify this is the number of words and images in each of the pages. Are fewer words ideal or should the sales copy be more? What is the industry standard currently? You could A/B test different copy lengths and see which converts more. But having a data-centric view on the current landscape before proceeding down this path might be prudent.</p>
-
 <p>Here&rsquo;s what I have in mind.</p>
-
-<p>Scrape several popular SaaS companies&rsquo; websites. Most of them have similar templates. *A home page. Product page. About us. Pricing.* With a bit of cleaning, it should be easy to get some aggregate metrics and publish the results in a dashboard.</p>
-
+<p>Scrape several popular SaaS companies&rsquo; websites. Most of them have similar templates. <em>A home page. Product page. About us. Pricing.</em> With a bit of cleaning, it should be easy to get some aggregate metrics and publish the results in a dashboard.</p>
 <p>My technical stack would look something like this:</p>
-
 <ul>
 <li><code>jupyter notebook</code> as the coding environment and <code>python</code> as the coding language.</li>
 <li>Google Colab for development.</li>
@@ -94,13 +94,9 @@
 <li>Code repo: <code>github</code> (or <code>gitlab</code> or <code>bitbucket</code> if you are already on it)</li>
 <li>If you want to go all fancy, you could use <code>fastAPI</code> to build and deploy the app. But that will require coding the front-end (so, you will need to know <code>HTML</code> and <code>CSS</code> - I am not going to recommend it for a weekend hack).</li>
 </ul>
-
 <p>All of the above services are available for free. The only advice and word of caution I have are to be respectful of the <a href="https://en.wikipedia.org/wiki/Robots_exclusion_standard">robots.txt</a> file in each of the sites.</p>
-
 <p>I am not sure if there is a micro-SaaS that can be built out of this. Maybe there is - but I am skeptical. One could get all fancy and use more detailed NLP models from <code>hugging face</code> to extract a variety of attributes to build insights on. But that&rsquo;s going to take more than a weekend to do.</p>
-
 <p>I am happy to help and mentor if someone is interested in building this as a weekend project.</p>
-
 <p><em>I typically post on startups and Machine Learning. Please follow me on <a href="https://twitter.com/bargava">twitter</a> for more articles.</em></p>
 
         
@@ -110,8 +106,11 @@
         <div class="post-pagination dt w-100 mt4 mb2">
   
     <a class="prev dtc pr2 tl v-top fw6"
-    href="/blog/lessons-from-pinboard/">&larr; Startup lessons from Pinboard</a>
+    href="//localhost:1313/blog/lessons-from-pinboard/">&larr; Startup lessons from Pinboard</a>
   
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="//localhost:1313/blog/this-vc-writes-for-shoggoths/">This VC writes for Shoggoths &rarr;</a>
   
 </div>
 
@@ -123,7 +122,7 @@
 <footer class="site-footer pa4 bt b--transparent" role="contentinfo">
   <nav class="db dt-l w-100">
     <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
-      &copy; 2020 Bargava, Bangalore, India
+      &copy; 2025 Bargava, Bangalore, India
       <br />
       
 Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.

@@ -1,50 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on A ML engineer</title>
-    <link>/categories/</link>
+    <link>//localhost:1313/categories/</link>
     <description>Recent content in Categories on A ML engineer</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Growth Hack</title>
-      <link>/categories/growth-hack/</link>
-      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/growth-hack/</guid>
+      <title>Writing</title>
+      <link>//localhost:1313/categories/writing/</link>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/categories/writing/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Weekend-Hack</title>
+      <link>//localhost:1313/categories/weekend-hack/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/categories/weekend-hack/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Personal</title>
-      <link>/categories/personal/</link>
+      <link>//localhost:1313/categories/personal/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/personal/</guid>
+      <guid>//localhost:1313/categories/personal/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Startup Idea</title>
-      <link>/categories/startup-idea/</link>
+      <link>//localhost:1313/categories/startup-idea/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/startup-idea/</guid>
+      <guid>//localhost:1313/categories/startup-idea/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>weekend-hack</title>
-      <link>/categories/weekend-hack/</link>
-      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/weekend-hack/</guid>
+      <title>Growth Hack</title>
+      <link>//localhost:1313/categories/growth-hack/</link>
+      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/categories/growth-hack/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

@@ -1,43 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Growth Hack on A ML engineer</title>
-    <link>/series/growth-hack/</link>
+    <link>//localhost:1313/series/growth-hack/</link>
     <description>Recent content in Growth Hack on A ML engineer</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/series/growth-hack/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="//localhost:1313/series/growth-hack/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Crush it on Twitter</title>
-      <link>/blog/create-twitter-audience/</link>
+      <link>//localhost:1313/blog/create-twitter-audience/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/create-twitter-audience/</guid>
-      <description>source unsplash
-David Perell and Matthew Kobach did a livestream on YouTube on &amp;ldquo;How to Crush it on Twitter&amp;rdquo;. Here are some notes from the session.
-Who is the session for
-Anyone who wants to create an audience on twitter.
-Why bother about Twitter
- You can build a network solely based on your clarity and quality of your thoughts. Twitter is the instant writing improvement tool that has neer existed for mankind before.</description>
+      <guid>//localhost:1313/blog/create-twitter-audience/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/blog/assets/crush-twitter.jpg&#34; alt=&#34;crush twitter&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;source &lt;a href=&#34;https://unsplash.com/photos/CT7IWRM7G5k&#34;&gt;unsplash&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://twitter.com/david_perell&#34;&gt;David Perell&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/mkobach&#34;&gt;Matthew Kobach&lt;/a&gt; did a livestream on &lt;a href=&#34;https://youtu.be/o9NxQ7aCUOw&#34;&gt;YouTube&lt;/a&gt; on &amp;ldquo;How to Crush it on Twitter&amp;rdquo;. Here are some notes from the session.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Who is the session for&lt;/strong&gt;&lt;br&gt;&#xA;Anyone who wants to create an audience on twitter.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Why bother about Twitter&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You can build a network solely based on your clarity and quality of your thoughts.&lt;/li&gt;&#xA;&lt;li&gt;Twitter is the instant writing improvement tool that has neer existed for mankind before.&lt;/li&gt;&#xA;&lt;li&gt;Twitter is the most amazing networking and learning network ever built - Bill Gurley.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Twitter provides a continuous stream of information. One should be deliberate in his/her consumption choices. 99% of the people only consume. One should build the skill to synthesize the content that is being consumed. (More on this later).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to Crush it on Twitter</title>
-      <link>/note/create-twitter-audience/</link>
+      <link>//localhost:1313/note/create-twitter-audience/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/note/create-twitter-audience/</guid>
-      <description>David Perell and Matthew Kobach did a livestream on YouTube on &amp;ldquo;How to Crush it on Twitter&amp;rdquo;. Here are some notes from the session.
-Who is the session for
-Anyone who wants to create an audience on twitter.
-Why bother about Twitter
- You can build a network solely based on your clarity and quality of your thoughts.
- Twitter is the instant writing improvement tool that has neer existed for mankind before.</description>
+      <guid>//localhost:1313/note/create-twitter-audience/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/david_perell&#34;&gt;David Perell&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/mkobach&#34;&gt;Matthew Kobach&lt;/a&gt; did a livestream on &lt;a href=&#34;https://youtu.be/o9NxQ7aCUOw&#34;&gt;YouTube&lt;/a&gt; on &amp;ldquo;How to Crush it on Twitter&amp;rdquo;. Here are some notes from the session.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Who is the session for&lt;/strong&gt;&lt;br&gt;&#xA;Anyone who wants to create an audience on twitter.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Why bother about Twitter&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You can build a network solely based on your clarity and quality of your thoughts.&lt;/li&gt;&#xA;&lt;li&gt;Twitter is the instant writing improvement tool that has neer existed for mankind before.&lt;/li&gt;&#xA;&lt;li&gt;Twitter is the most amazing networking and learning network ever built - Bill Gurley.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Twitter provides a continuous stream of information. One should be deliberate in his/her consumption choices. 99% of the people only consume. One should build the skill to synthesize the content that is being consumed. (More on this later).&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

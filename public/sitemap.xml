@@ -1,169 +1,107 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>/blog/saas-copy-counter/</loc>
+    <loc>//localhost:1313/categories/</loc>
+    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/series/</loc>
+    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/this-vc-writes-for-shoggoths/</loc>
+    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/writing/</loc>
+    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/series/writing/</loc>
+    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/writing/</loc>
+    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/personal/</loc>
     <lastmod>2020-07-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/lessons-from-pinboard/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/weekend-hack/</loc>
+    <lastmod>2020-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/series/weekend-hack/</loc>
+    <lastmod>2020-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/saas-copy-counter/</loc>
+    <lastmod>2020-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/personal/</loc>
     <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/grammarly-for-design/</loc>
+  </url><url>
+    <loc>//localhost:1313/series/personal/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/lessons-from-pinboard/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/grammarly-for-design/</loc>
     <lastmod>2020-07-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/suck-less-at-chess/</loc>
+  </url><url>
+    <loc>//localhost:1313/blog/suck-less-at-chess/</loc>
     <lastmod>2020-07-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/disrupt-enterprise-search/</loc>
+  </url><url>
+    <loc>//localhost:1313/blog/disrupt-enterprise-search/</loc>
     <lastmod>2020-07-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/create-twitter-audience/</loc>
+  </url><url>
+    <loc>//localhost:1313/categories/startup-idea/</loc>
+    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/series/startup-idea/</loc>
+    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/startup-idea/</loc>
+    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/growth-hack/</loc>
     <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/note/create-twitter-audience/</loc>
+  </url><url>
+    <loc>//localhost:1313/series/growth-hack/</loc>
     <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/contact/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/growth-hack/</loc>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/create-twitter-audience/</loc>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/note/create-twitter-audience/</loc>
+    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/contact/</loc>
     <lastmod>2019-11-03T13:38:41-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
+  </url><url>
+    <loc>//localhost:1313/form/</loc>
+    <lastmod>2019-11-03T13:38:41-06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
     <lastmod>2019-11-03T12:27:33-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/</loc>
+  </url><url>
+    <loc>//localhost:1313/blog/</loc>
     <lastmod>2019-02-20T09:31:27-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/note/</loc>
+  </url><url>
+    <loc>//localhost:1313/note/</loc>
     <lastmod>2019-02-20T09:31:27-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/newsletter/</loc>
+  </url><url>
+    <loc>//localhost:1313/newsletter/</loc>
     <lastmod>2019-02-19T14:47:22-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/notes/</loc>
+  </url><url>
+    <loc>//localhost:1313/notes/</loc>
     <lastmod>2019-02-19T14:47:22-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talks/</loc>
+  </url><url>
+    <loc>//localhost:1313/talks/</loc>
+    <lastmod>2019-02-18T12:27:33-06:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/workshops/</loc>
     <lastmod>2019-02-18T12:27:33-06:00</lastmod>
   </url>
-  
-  <url>
-    <loc>/workshops/</loc>
-    <lastmod>2019-02-18T12:27:33-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/form/</loc>
-    <lastmod>2019-11-03T13:38:41-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/growth-hack/</loc>
-    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/series/growth-hack/</loc>
-    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/personal/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/series/personal/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/personal/</loc>
-    <lastmod>2020-07-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/series/</loc>
-    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/startup-idea/</loc>
-    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/series/startup-idea/</loc>
-    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-07-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/growth-hack/</loc>
-    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/startup-idea/</loc>
-    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/weekend-hack/</loc>
-    <lastmod>2020-07-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/series/weekend-hack/</loc>
-    <lastmod>2020-07-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
 </urlset>

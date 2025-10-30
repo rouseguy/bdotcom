@@ -1,55 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Personal on A ML engineer</title>
-    <link>/tags/personal/</link>
+    <link>//localhost:1313/tags/personal/</link>
     <description>Recent content in Personal on A ML engineer</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 18 Jul 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/personal/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="//localhost:1313/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Word Count of SaaS sites</title>
-      <link>/blog/saas-copy-counter/</link>
+      <link>//localhost:1313/blog/saas-copy-counter/</link>
       <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/saas-copy-counter/</guid>
-      <description>Being approximately right at the right moment is better than being accurate after the moment has passed.
- This is a fun weekend project for someone interested in doing a data science project. A problem I&amp;rsquo;ve been grappling with is what, how, and how much to write on the website of the SaaS product. For a SaaS company, the website is pretty much its sales copy. It is interesting and relevant to know how the market, and especially the competitors, present their sales copy.</description>
+      <guid>//localhost:1313/blog/saas-copy-counter/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Being approximately right at the right moment is better than being accurate after the moment has passed.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;This is a fun weekend project for someone interested in doing a data science project. A problem I&amp;rsquo;ve been grappling with is what, how, and how much to write on the website of the SaaS product. For a SaaS company, the website is pretty much its sales &lt;a href=&#34;https://en.wikipedia.org/wiki/Copywriting&#34;&gt;copy&lt;/a&gt;. It is interesting and relevant to know how the market, and especially the competitors, present their sales copy.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Startup lessons from Pinboard</title>
-      <link>/blog/lessons-from-pinboard/</link>
+      <link>//localhost:1313/blog/lessons-from-pinboard/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/lessons-from-pinboard/</guid>
-      <description>It is faster to shrink the pond than become a bigger fish Aaron Ross
- We live in a consumption economy. If you come across an interesting article, be it on Facebook or your favorite news site, you probably open it in a new tab and the article awaits your time and attention to be read. And at some point, you do get to it. Now and then, though, you will find an article that you want to save for future reference.</description>
+      <guid>//localhost:1313/blog/lessons-from-pinboard/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;It is faster to shrink the pond than become a bigger fish&lt;/em&gt; &lt;!-- raw HTML omitted --&gt; &lt;a href=&#34;https://fromimpossible.com/&#34;&gt;Aaron Ross&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;We live in a consumption economy. If you come across an interesting article, be it on Facebook or your favorite news site, you probably open it in a new tab and the article awaits your time and attention to be read. And at some point, you do get to it. Now and then, though, you will find an article that you want to save for future reference. This workflow is not new: browsers realized this a very long time ago and introduced the Bookmarks feature. Early usage of bookmarks was typically used to store frequently accessed websites, like your bank login page.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Need Grammarly for Design</title>
-      <link>/blog/grammarly-for-design/</link>
+      <link>//localhost:1313/blog/grammarly-for-design/</link>
       <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/grammarly-for-design/</guid>
-      <description>“Once you can name something, you’re conscious of it. You have power over it. You’re in control. You own it.” Robin Williams
- I am a technical co-founder at a startup. But then, I also spend a lot of time writing and designing - emails, content marketing, decks, updates to clients, dashboards, product feedback, product features - and the list goes on. These are non-traditional tasks for me; tasks that I hadn&amp;rsquo;t done much in my corporate career and I don&amp;rsquo;t have academic training in them.</description>
+      <guid>//localhost:1313/blog/grammarly-for-design/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;“Once you can name something, you’re conscious of it. You have power over it. You’re in control. You own it.”&lt;/em&gt; &lt;!-- raw HTML omitted --&gt; &lt;a href=&#34;https://www.amazon.com/Non-Designers-Design-Book-4th/dp/0133966151&#34;&gt;Robin Williams&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I am a technical co-founder at a startup. But then, I also spend a lot of time writing and designing - emails, content marketing, decks, updates to clients, dashboards, product feedback, product features - and the list goes on. These are non-traditional tasks for me; tasks that I hadn&amp;rsquo;t done much in my corporate career and I don&amp;rsquo;t have academic training in them. Writing code is one thing - but communicating, especially visually, is something I am still coming to grips with. A startup&amp;rsquo;s biggest strength is agility. Its ability to change directions swiftly and innovate to meet customers&amp;rsquo; demands is a regular phenomenon. But a startup also has limited resources, especially in terms of access to talent and money. Good and experienced designers are almost always out of reach. It means I have to also double up as a designer. So, here I am: &lt;em&gt;I don&amp;rsquo;t know what I don&amp;rsquo;t know in design&lt;/em&gt;!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How I learned to suck less at Chess</title>
-      <link>/blog/suck-less-at-chess/</link>
+      <link>//localhost:1313/blog/suck-less-at-chess/</link>
       <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/suck-less-at-chess/</guid>
-      <description>Access to knowledge isn’t nearly as difficult as the desire to learn Seth Godin
- Growing up and going to school in the 1980s in the cold, sleepy town Ooty, weekends were not very exciting. One activity I looked forward to was poring over the weekly Saturday Sports Special edition that came with the English daily newspaper we got. It had two chess puzzles. And I used to spend a good hour or two that weekend trying to solve.</description>
+      <guid>//localhost:1313/blog/suck-less-at-chess/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Access to knowledge isn’t nearly as difficult as the desire to learn&lt;/em&gt; &lt;!-- raw HTML omitted --&gt; &lt;a href=&#34;https://seths.blog/2020/07/the-100-hour-asset/&#34;&gt;Seth Godin&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Growing up and going to school in the 1980s in the cold, sleepy town Ooty, weekends were not very exciting. One activity I looked forward to was poring over the weekly Saturday Sports Special edition that came with the English daily newspaper we got. It had two chess puzzles. And I used to spend a good hour or two that weekend trying to solve. All I remember was I hardly got the solutions right (the solutions were published in the next week&amp;rsquo;s edition).&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

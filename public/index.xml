@@ -1,138 +1,103 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bargava Subramanian on A ML engineer</title>
-    <link>/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content in Bargava Subramanian on A ML engineer</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 03 Nov 2019 12:27:33 -0600</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This VC writes for Shoggoths</title>
+      <link>//localhost:1313/blog/this-vc-writes-for-shoggoths/</link>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/this-vc-writes-for-shoggoths/</guid>
+      <description>&lt;p&gt;I &lt;em&gt;no longer&lt;/em&gt; write for humans. I write for &lt;strong&gt;Shoggoths&lt;/strong&gt;. That was the bomb that &lt;a href=&#34;https://x.com/sajithpai/&#34;&gt;Sajith Pai&lt;/a&gt;, the most prolific writer in the Indian VC industry, threw at us yesterday.&lt;/p&gt;&#xA;&lt;p&gt;Writers are going to have a significant advantage and a head start in the new world where AI will be flowing like &lt;strong&gt;electricity&lt;/strong&gt;, and it will be available on tap.&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s &lt;strong&gt;go back&lt;/strong&gt; 100 years. Edison invented the electric bulb. First one street was electrified, then a few more, then a block, and then it kept expanding. Electricity was limited in reach. Bulbs were extremely expensive. To scale electricity distribution, Thomas Edison started a company that was called &amp;hellip; well a very &lt;em&gt;meta&lt;/em&gt; name &amp;hellip;  &amp;ldquo;General Electric&amp;rdquo; - with the purpose of &lt;strong&gt;distributing electricity&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Word Count of SaaS sites</title>
-      <link>/blog/saas-copy-counter/</link>
+      <link>//localhost:1313/blog/saas-copy-counter/</link>
       <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/saas-copy-counter/</guid>
-      <description>Being approximately right at the right moment is better than being accurate after the moment has passed.
- This is a fun weekend project for someone interested in doing a data science project. A problem I&amp;rsquo;ve been grappling with is what, how, and how much to write on the website of the SaaS product. For a SaaS company, the website is pretty much its sales copy. It is interesting and relevant to know how the market, and especially the competitors, present their sales copy.</description>
+      <guid>//localhost:1313/blog/saas-copy-counter/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Being approximately right at the right moment is better than being accurate after the moment has passed.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;This is a fun weekend project for someone interested in doing a data science project. A problem I&amp;rsquo;ve been grappling with is what, how, and how much to write on the website of the SaaS product. For a SaaS company, the website is pretty much its sales &lt;a href=&#34;https://en.wikipedia.org/wiki/Copywriting&#34;&gt;copy&lt;/a&gt;. It is interesting and relevant to know how the market, and especially the competitors, present their sales copy.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Startup lessons from Pinboard</title>
-      <link>/blog/lessons-from-pinboard/</link>
+      <link>//localhost:1313/blog/lessons-from-pinboard/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/lessons-from-pinboard/</guid>
-      <description>It is faster to shrink the pond than become a bigger fish Aaron Ross
- We live in a consumption economy. If you come across an interesting article, be it on Facebook or your favorite news site, you probably open it in a new tab and the article awaits your time and attention to be read. And at some point, you do get to it. Now and then, though, you will find an article that you want to save for future reference.</description>
+      <guid>//localhost:1313/blog/lessons-from-pinboard/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;It is faster to shrink the pond than become a bigger fish&lt;/em&gt; &lt;!-- raw HTML omitted --&gt; &lt;a href=&#34;https://fromimpossible.com/&#34;&gt;Aaron Ross&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;We live in a consumption economy. If you come across an interesting article, be it on Facebook or your favorite news site, you probably open it in a new tab and the article awaits your time and attention to be read. And at some point, you do get to it. Now and then, though, you will find an article that you want to save for future reference. This workflow is not new: browsers realized this a very long time ago and introduced the Bookmarks feature. Early usage of bookmarks was typically used to store frequently accessed websites, like your bank login page.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Need Grammarly for Design</title>
-      <link>/blog/grammarly-for-design/</link>
+      <link>//localhost:1313/blog/grammarly-for-design/</link>
       <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/grammarly-for-design/</guid>
-      <description>“Once you can name something, you’re conscious of it. You have power over it. You’re in control. You own it.” Robin Williams
- I am a technical co-founder at a startup. But then, I also spend a lot of time writing and designing - emails, content marketing, decks, updates to clients, dashboards, product feedback, product features - and the list goes on. These are non-traditional tasks for me; tasks that I hadn&amp;rsquo;t done much in my corporate career and I don&amp;rsquo;t have academic training in them.</description>
+      <guid>//localhost:1313/blog/grammarly-for-design/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;“Once you can name something, you’re conscious of it. You have power over it. You’re in control. You own it.”&lt;/em&gt; &lt;!-- raw HTML omitted --&gt; &lt;a href=&#34;https://www.amazon.com/Non-Designers-Design-Book-4th/dp/0133966151&#34;&gt;Robin Williams&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I am a technical co-founder at a startup. But then, I also spend a lot of time writing and designing - emails, content marketing, decks, updates to clients, dashboards, product feedback, product features - and the list goes on. These are non-traditional tasks for me; tasks that I hadn&amp;rsquo;t done much in my corporate career and I don&amp;rsquo;t have academic training in them. Writing code is one thing - but communicating, especially visually, is something I am still coming to grips with. A startup&amp;rsquo;s biggest strength is agility. Its ability to change directions swiftly and innovate to meet customers&amp;rsquo; demands is a regular phenomenon. But a startup also has limited resources, especially in terms of access to talent and money. Good and experienced designers are almost always out of reach. It means I have to also double up as a designer. So, here I am: &lt;em&gt;I don&amp;rsquo;t know what I don&amp;rsquo;t know in design&lt;/em&gt;!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How I learned to suck less at Chess</title>
-      <link>/blog/suck-less-at-chess/</link>
+      <link>//localhost:1313/blog/suck-less-at-chess/</link>
       <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/suck-less-at-chess/</guid>
-      <description>Access to knowledge isn’t nearly as difficult as the desire to learn Seth Godin
- Growing up and going to school in the 1980s in the cold, sleepy town Ooty, weekends were not very exciting. One activity I looked forward to was poring over the weekly Saturday Sports Special edition that came with the English daily newspaper we got. It had two chess puzzles. And I used to spend a good hour or two that weekend trying to solve.</description>
+      <guid>//localhost:1313/blog/suck-less-at-chess/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Access to knowledge isn’t nearly as difficult as the desire to learn&lt;/em&gt; &lt;!-- raw HTML omitted --&gt; &lt;a href=&#34;https://seths.blog/2020/07/the-100-hour-asset/&#34;&gt;Seth Godin&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Growing up and going to school in the 1980s in the cold, sleepy town Ooty, weekends were not very exciting. One activity I looked forward to was poring over the weekly Saturday Sports Special edition that came with the English daily newspaper we got. It had two chess puzzles. And I used to spend a good hour or two that weekend trying to solve. All I remember was I hardly got the solutions right (the solutions were published in the next week&amp;rsquo;s edition).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Disrupting Enterprise Search</title>
-      <link>/blog/disrupt-enterprise-search/</link>
+      <link>//localhost:1313/blog/disrupt-enterprise-search/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/disrupt-enterprise-search/</guid>
-      <description>We, human beings, are quite good at processing new information, but are terrible in storing them in long-term memory(LTM). LTM is finite and very limited. Many centuries ago, the printing press took a giant step in alleviating this problem. And then, distribution boomed. The number of printed content exploded.
-Humans are a sucker for information. How do you find if the information you are searching for exist in that book?</description>
+      <guid>//localhost:1313/blog/disrupt-enterprise-search/</guid>
+      <description>&lt;p&gt;We, human beings, are quite good at processing new information, but are &lt;em&gt;terrible&lt;/em&gt; in storing them in long-term memory(LTM). LTM is finite and very limited. Many centuries ago, the printing press took a giant step in alleviating this problem. And then, distribution boomed. The number of printed content exploded.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Humans are a sucker for information&lt;/em&gt;. How do you &lt;em&gt;find&lt;/em&gt; if the information you are searching for exist in that book? &lt;em&gt;Table of Contents&lt;/em&gt; listed the broad topic areas covered in the book. But a 300+ pages book has lot more keywords. This resulted in &amp;ldquo;&lt;em&gt;index&lt;/em&gt;&amp;rdquo;. Added to the end of the book, index provided a quick lookup on the word and the page(s) where it was discussed/explained.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to Crush it on Twitter</title>
-      <link>/blog/create-twitter-audience/</link>
+      <link>//localhost:1313/blog/create-twitter-audience/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/create-twitter-audience/</guid>
-      <description>source unsplash
-David Perell and Matthew Kobach did a livestream on YouTube on &amp;ldquo;How to Crush it on Twitter&amp;rdquo;. Here are some notes from the session.
-Who is the session for
-Anyone who wants to create an audience on twitter.
-Why bother about Twitter
- You can build a network solely based on your clarity and quality of your thoughts. Twitter is the instant writing improvement tool that has neer existed for mankind before.</description>
+      <guid>//localhost:1313/blog/create-twitter-audience/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/blog/assets/crush-twitter.jpg&#34; alt=&#34;crush twitter&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;source &lt;a href=&#34;https://unsplash.com/photos/CT7IWRM7G5k&#34;&gt;unsplash&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://twitter.com/david_perell&#34;&gt;David Perell&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/mkobach&#34;&gt;Matthew Kobach&lt;/a&gt; did a livestream on &lt;a href=&#34;https://youtu.be/o9NxQ7aCUOw&#34;&gt;YouTube&lt;/a&gt; on &amp;ldquo;How to Crush it on Twitter&amp;rdquo;. Here are some notes from the session.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Who is the session for&lt;/strong&gt;&lt;br&gt;&#xA;Anyone who wants to create an audience on twitter.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Why bother about Twitter&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You can build a network solely based on your clarity and quality of your thoughts.&lt;/li&gt;&#xA;&lt;li&gt;Twitter is the instant writing improvement tool that has neer existed for mankind before.&lt;/li&gt;&#xA;&lt;li&gt;Twitter is the most amazing networking and learning network ever built - Bill Gurley.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Twitter provides a continuous stream of information. One should be deliberate in his/her consumption choices. 99% of the people only consume. One should build the skill to synthesize the content that is being consumed. (More on this later).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to Crush it on Twitter</title>
-      <link>/note/create-twitter-audience/</link>
+      <link>//localhost:1313/note/create-twitter-audience/</link>
       <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/note/create-twitter-audience/</guid>
-      <description>David Perell and Matthew Kobach did a livestream on YouTube on &amp;ldquo;How to Crush it on Twitter&amp;rdquo;. Here are some notes from the session.
-Who is the session for
-Anyone who wants to create an audience on twitter.
-Why bother about Twitter
- You can build a network solely based on your clarity and quality of your thoughts.
- Twitter is the instant writing improvement tool that has neer existed for mankind before.</description>
+      <guid>//localhost:1313/note/create-twitter-audience/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://twitter.com/david_perell&#34;&gt;David Perell&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/mkobach&#34;&gt;Matthew Kobach&lt;/a&gt; did a livestream on &lt;a href=&#34;https://youtu.be/o9NxQ7aCUOw&#34;&gt;YouTube&lt;/a&gt; on &amp;ldquo;How to Crush it on Twitter&amp;rdquo;. Here are some notes from the session.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Who is the session for&lt;/strong&gt;&lt;br&gt;&#xA;Anyone who wants to create an audience on twitter.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Why bother about Twitter&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You can build a network solely based on your clarity and quality of your thoughts.&lt;/li&gt;&#xA;&lt;li&gt;Twitter is the instant writing improvement tool that has neer existed for mankind before.&lt;/li&gt;&#xA;&lt;li&gt;Twitter is the most amazing networking and learning network ever built - Bill Gurley.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Twitter provides a continuous stream of information. One should be deliberate in his/her consumption choices. 99% of the people only consume. One should build the skill to synthesize the content that is being consumed. (More on this later).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Contact</title>
-      <link>/contact/</link>
+      <link>//localhost:1313/contact/</link>
       <pubDate>Sun, 03 Nov 2019 13:38:41 -0600</pubDate>
-      
-      <guid>/contact/</guid>
-      <description>** Contact page don&amp;rsquo;t contain a body, just the front matter above. See form.html in the layouts folder **</description>
+      <guid>//localhost:1313/contact/</guid>
+      <description>&lt;p&gt;** Contact page don&amp;rsquo;t contain a body, just the front matter above.&#xA;See form.html in the layouts folder **&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Newsletter</title>
-      <link>/newsletter/</link>
+      <link>//localhost:1313/newsletter/</link>
       <pubDate>Tue, 19 Feb 2019 14:47:22 -0600</pubDate>
-      
-      <guid>/newsletter/</guid>
-      <description>Newsletter  Sign up to my newsletter to get regular updates to your email directly.  Past Newsletters Coming soon  </description>
+      <guid>//localhost:1313/newsletter/</guid>
+      <description>&lt;h1 class=&#34;f1 mt1 lh-title&#34;&gt;&#xA;  Newsletter&#xA;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;f4 measure-wide lh-copy cf&#34;&gt;&#xA;  Sign up to my newsletter to get regular updates to your email directly.&#xA;&lt;/p&gt;&#xA;&#xA;&lt;iframe width=&#34;480&#34; height=&#34;240&#34; src=&#34;https://bargava.substack.com/embed&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;&#xA;&#xA;&#xA;&lt;hr class=&#34;f4 ba b--black-10 mt5 mb4 ml0&#34;&gt;&#xA;&lt;div class=&#34;flex-l items-start&#34;&gt;&#xA;  &lt;div class=&#34;mr4-l w-two-thirds-l&#34;&gt;&#xA;    &lt;h6 class=&#34;f5 fw7 black-80 mt4 tracked ttu lh-title&#34;&gt;Past Newsletters&lt;/h6&gt;&#xA;    &lt;h4 class=&#34;f5 fw7 black-40 lh-title&#34;&gt;Coming soon&lt;/h4&gt;&#xA;  &#xA;  &lt;/div&gt;&#xA;  &#xA;&lt;/div&gt;</description>
     </item>
-    
     <item>
       <title>Notes</title>
-      <link>/notes/</link>
+      <link>//localhost:1313/notes/</link>
       <pubDate>Tue, 19 Feb 2019 14:47:22 -0600</pubDate>
-      
-      <guid>/notes/</guid>
-      <description>Notes from content I consume  I listen to a good amount of talks and podcasts, read books and read a number of blog posts. In this section, I summarize my learnings. Build an audience on Twitter Why and how to build an audience on twitter? David Perell and Matthew Kobach did a livestream on &#34;How to Crush it on Twitter&#34;. Learn how to be a lighthouse for like-minded people.</description>
+      <guid>//localhost:1313/notes/</guid>
+      <description>&lt;h1 class=&#34;f2 f1-ns measure-narrow lh-solid&#34;&gt;&#xA;  Notes from content I consume&#xA;&lt;/h1&gt;&#xA;&lt;p class=&#34;f4 measure lh-copy&#34;&gt;&#xA;  I listen to a good amount of talks and podcasts, &#xA;  read books and read a number of blog posts. &#xA;  In this section, I summarize my learnings. &#xA;&lt;/p&gt;&#xA;&#xA;&lt;hr class=&#34;f4 ba b--black-10 mt5 mb4 ml0&#34;&gt;&#xA;&lt;div class=&#34;flex-l items-start&#34;&gt;&#xA;  &lt;div class=&#34;mr4-l w-two-thirds-l&#34;&gt;&#xA;    &lt;h4 class=&#34;f4 mt4 lh-title&#34;&gt;&lt;a href=&#34;//localhost:1313/note/create-twitter-audience/&#34; class=&#34;link dim blue&#34;&gt;Build an audience on Twitter&lt;/a&gt;&lt;/h4&gt;&#xA;    &lt;p class=&#34;measure-wide lh-copy cf&#34;&gt;&#xA;      &lt;img src=&#34;//localhost:1313/notes/assets/twitter-audience.png&#34; align=&#34;left&#34; class=&#34;mw-100 w4 mr3 db br3 br--left&#34;&#xA;        alt=&#34;Simple representation of a grid layout overlayed in blue&#34;&gt;&#xA;      Why and how to build an audience on twitter? &#xA;      David Perell and Matthew Kobach did a livestream on &#xA;      &#34;How to Crush it on Twitter&#34;. Learn how to be &#xA;      a lighthouse for like-minded people. &lt;a href=&#34;//localhost:1313/note/create-twitter-audience/&#34; target=&#34;_blank&#34;&gt;Learn more&lt;/a&gt;&#xA;    &lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Talks</title>
-      <link>/talks/</link>
+      <link>//localhost:1313/talks/</link>
       <pubDate>Mon, 18 Feb 2019 12:27:33 -0600</pubDate>
-      
-      <guid>/talks/</guid>
-      <description>Talks  Recent Talks Privacy-preserving models using Federated Learning Federated learning is a family of Machine Learning algorithms that has the core idea: a connected network exists in which there is a central server node. Each of the nodes creates data – that has to be used for training as well as for prediction. Each of the nodes trains a local model and only that model is shared with the server, not the data.</description>
+      <guid>//localhost:1313/talks/</guid>
+      <description>&lt;h1 class=&#34;f1 mt1 lh-title&#34;&gt;&#xA;  Talks&#xA;&lt;/h1&gt;&#xA;&#xA;&lt;h2 class=&#34;ttu tracked black-70 pv3 mt1 b--black-10&#34;&gt;Recent Talks&lt;/h2&gt;&#xA;&#xA;&lt;hr class=&#34;f4 ba b--black-10 mt0 mb4 ml0&#34;&gt;&#xA;&lt;div class=&#34;flex-l items-start&#34;&gt;&#xA;  &lt;div class=&#34;mr4-l w-two-thirds-l&#34;&gt;&#xA;    &#xA;    &lt;h4 class=&#34;f4 mt4 lh-title&#34;&gt;&lt;a href=&#34;https://www.analyticsvidhya.com/datahack-summit-2019/schedule/hack-session-secure-and-privacy-preserving-deep-learning-using-federated-learning/&#34; class=&#34;link dim blue&#34;&gt;Privacy-preserving models using Federated Learning&lt;/a&gt;&lt;/h4&gt;&#xA;    &lt;p class=&#34;f4 measure-wide lh-copy cf&#34;&gt;&#xA;&#xA;    Federated learning is a family of Machine Learning algorithms that has the core idea: a connected network exists in which there is a central server node. Each of the nodes creates data – that has to be used for training as well as for prediction. Each of the nodes trains a local model and only that model is shared with the server, not the data. In this talk, We talk about how to build deep learning models using federated learning that is truly privacy-preserving. We will show how to build custom algorithms and loss functions.&#xA;    &lt;p class=&#34;f5 measure lh-copy cf b&#34;&gt;&#xA;       &lt;a href=&#34;https://www.analyticsvidhya.com/datahack-summit-2019/schedule/hack-session-secure-and-privacy-preserving-deep-learning-using-federated-learning/&#34; target=&#34;_blank&#34;&gt;More info&lt;/a&gt;&#xA;    &lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Workshops</title>
-      <link>/workshops/</link>
+      <link>//localhost:1313/workshops/</link>
       <pubDate>Mon, 18 Feb 2019 12:27:33 -0600</pubDate>
-      
-      <guid>/workshops/</guid>
-      <description>Workshops  Recent Workshops Recommendation Systems using Deep Learning Recommendation systems play a significant role—for users, a new world of options; for companies, it drives engagement and satisfaction. We walk you through the different paradigms of recommendation systems and introduce you to deep learning-based approaches. You&#39;ll gain the practical hands-on knowledge to build, select, deploy, and maintain a recommendation system. More info  Details Venue: New York City, USA Date: Sep 2019   </description>
+      <guid>//localhost:1313/workshops/</guid>
+      <description>&lt;h1 class=&#34;f1 mt1 lh-title&#34;&gt;&#xA;  Workshops&#xA;&lt;/h1&gt;&#xA;&#xA;&lt;h2 class=&#34;ttu tracked black-70 pv3 mt1 b--black-10&#34;&gt;Recent Workshops&lt;/h2&gt;&#xA;&#xA;&lt;hr class=&#34;f4 ba b--black-10 mt0 mb4 ml0&#34;&gt;&#xA;&lt;div class=&#34;flex-l items-start&#34;&gt;&#xA;  &lt;div class=&#34;mr4-l w-two-thirds-l&#34;&gt;&#xA;    &#xA;    &lt;h4 class=&#34;f4 mt4 lh-title&#34;&gt;&lt;a href=&#34;https://amitkaps.com/recsys&#34; class=&#34;link dim blue&#34;&gt;Recommendation Systems using Deep Learning&lt;/a&gt;&lt;/h4&gt;&#xA;    &lt;p class=&#34;f4 measure-wide lh-copy cf&#34;&gt;&#xA;&#xA;    Recommendation systems play a significant role—for users, a new world of options; for companies, it drives engagement and satisfaction. We walk you through the different paradigms of recommendation systems and introduce you to deep learning-based approaches. You&#39;ll gain the practical hands-on knowledge to build, select, deploy, and maintain a recommendation system.  &#xA;    &lt;p class=&#34;f5 measure lh-copy cf b&#34;&gt;&#xA;       &lt;a href=&#34;https://amitkaps.com/recsys&#34; target=&#34;_blank&#34;&gt;More info&lt;/a&gt;&#xA;    &lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

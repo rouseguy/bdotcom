@@ -1,45 +1,53 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr"><head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Startup lessons from Pinboard | A ML engineer</title>
-  <meta name="description" content="Startup lessons learned from Pinboard" />
-   
-  
-<meta itemprop="name" content="Startup lessons from Pinboard">
-<meta itemprop="description" content="Startup lessons learned from Pinboard">
+<html lang="en" dir="ltr"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>
+        Startup lessons from Pinboard | A ML engineer
+    </title>
+    <meta name="description" content="Startup lessons learned from Pinboard" />
+    
+    
+  <meta itemprop="name" content="Startup lessons from Pinboard">
+  <meta itemprop="description" content="Startup lessons learned from Pinboard">
+  <meta itemprop="datePublished" content="2020-07-10T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2020-07-10T00:00:00+00:00">
+  <meta itemprop="wordCount" content="867">
+  <meta itemprop="image" content="//localhost:1313/blog/assets/bookmark.png">
+  <meta itemprop="keywords" content="Personal"> 
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="//localhost:1313/blog/assets/bookmark.png">
+  <meta name="twitter:title" content="Startup lessons from Pinboard">
+  <meta name="twitter:description" content="Startup lessons learned from Pinboard">
 
-
-<meta itemprop="datePublished" content="2020-07-10T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2020-07-10T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="867">
-
-  <meta itemprop="image" content="/blog/assets/bookmark.png">
-
-
-
-<meta itemprop="keywords" content="Personal," />
-
-  <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="/blog/assets/bookmark.png"/>
-
-<meta name="twitter:title" content="Startup lessons from Pinboard"/>
-<meta name="twitter:description" content="Startup lessons learned from Pinboard"/>
-<meta name="twitter:site" content="@bargava"/>
-
-  
-  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-  <link rel="shortcut icon" href="/img/favicon.svg?v=0" type="image/x-icon">
-  <link rel="icon" href="/img/favicon.svg?v=0" type="image/x-icon">
-  
-  
-  <link rel="stylesheet" href="/style.main.min.096f1fe3e279d1473c83f5c340efd1728320972499a103b32a8a4963caf17ec0.css" integrity="sha256-CW8f4&#43;J50Uc8g/XDQO/RcoMglySZoQOzKopJY8rxfsA=" media="screen">
+    
+    
+    <!--[if IE
+        ]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script
+    ><![endif]-->
+    
+    <link
+        rel="shortcut icon"
+        href="/img/favicon.svg?v=0"
+        type="image/x-icon"
+    />
+    <link rel="icon" href="/img/favicon.svg?v=0" type="image/x-icon" />
+     
+    <link
+        rel="stylesheet"
+        href="//localhost:1313/style.main.min.2309c0f68f18e500c8e20ad7ec6a8389a960eeb9a14e9049e262b437721cb3ea.css"
+        integrity="sha256-IwnA9o8Y5QDI4grX7GqDialg7rmhTpBJ4mK0N3Ics&#43;o="
+        media="screen"
+    />
 </head>
 <body>
       <div class="grid-container single"><header class="site-header pa4 bb b--transparent" role="banner">
   <nav class="site-nav db dt-l w-100" role="nav">
-    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="/" title="Home">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="//localhost:1313/" title="Home">
       <img src="/img/favicon.svg" class="dib db-l h2 w-auto" alt="A ML engineer">
     </a>
     <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l">
@@ -51,8 +59,6 @@
       <a class="link f6 f5-l dib pv1 ph2" href="/workshops/" title="Workshop Page">Workshops</a>
       
       <a class="link f6 f5-l dib pv1 ph2" href="/talks/" title="My Talks">Talks</a>
-      
-      <a class="link f6 f5-l dib pv1 ph2" href="/contact/" title="Contact Form">Contact</a>
       
       
     </div>
@@ -69,59 +75,32 @@
         
       </header>
       <section class="post-body f4 pt1 pb4">
-        
-
-<blockquote>
-<p><em>It is faster to shrink the pond than become a bigger fish</em> <br> <a href="https://fromimpossible.com/">Aaron Ross</a></p>
+        <blockquote>
+<p><em>It is faster to shrink the pond than become a bigger fish</em> <!-- raw HTML omitted --> <a href="https://fromimpossible.com/">Aaron Ross</a></p>
 </blockquote>
-
 <p>We live in a consumption economy. If you come across an interesting article, be it on Facebook or your favorite news site, you probably open it in a new tab and the article awaits your time and attention to be read. And at some point, you do get to it. Now and then, though, you will find an article that you want to save for future reference. This workflow is not new: browsers realized this a very long time ago and introduced the Bookmarks feature. Early usage of bookmarks was typically used to store frequently accessed websites, like your bank login page.</p>
-
 <p>These bookmarks were stored locally in the system. But if the system failed, which happened more often back in the day, all the bookmarks vanished. Also, the late 2000s saw two major shifts: a) The introduction of Google Chrome and its subsequent market domination b) Smartphones - first led by iPhone and then Android. Consumption patterns shifted. People began to browse across devices and browsers.</p>
-
 <p>Storing and sharing links became a huge business. Reddit is the biggest example on the social bookmarking side of the spectrum, with a large user base engaging in regular discussions on various topics. The Pocket was a popular tool on the personal bookmarking tool. There were and are many more bookmarking tools out there. And then, there is <a href="https://pinboard.in/">Pinboard</a>.</p>
-
 <p>Started in 2009 by Maciej Cegłowski, it is a pioneer in the <a href="https://tylertringas.com/1-what-is-micro-saas/">micro-SaaS</a> space. While almost all of the competition was focused on a free/ad-supported model, Maciej built a subscription model and also provided access to the underlying data using API. This led to developers building plugins for Pinboard.</p>
-
 <p>My journey with Pinboard began 4 years ago. I was never a big user of the browser&rsquo;s internal bookmarks. I tried Pocket for over a year but never found it productive. They began sending email newsletters - and over time, that only increased by anxiety. <em>Anxiety to collect more</em>! I wanted a minimalistic tool. And I found Pinboard. The ability to save, write a brief set of notes, and tag the article was extremely useful for me. I could search on my notes and saved items later on - from any device.</p>
-
-<p>Here&rsquo;s a screenshot of how I would bookmark an article <br></p>
-
-<p><img src="/blog/assets/Pinboard1.png" alt="Bookmarking using Pinboard" /></p>
-
-<p><br></p>
-
+<p>Here&rsquo;s a screenshot of how I would bookmark an article <!-- raw HTML omitted --></p>
+<p><img src="/blog/assets/Pinboard1.png" alt="Bookmarking using Pinboard"></p>
+<!-- raw HTML omitted -->
 <p>And here&rsquo;s a screenshot of the dashboard. As plain vanilla as it can get!</p>
-
-<p><br>
-<img src="/blog/assets/Pinboard2.png" alt="Pinboard Dashboard" /></p>
-
+<!-- raw HTML omitted -->
 <p>Every year, Maciej <a href="(https://blog.pinboard.in/2020/07/pinboard_is_eleven/)">posts statistics</a> on his user base and revenue. 2018 didn&rsquo;t have data (except for Revenue) and I took the liberty to replace it with a value closer to the mean of 2017 and 2019. Here are two visualizations of the data</p>
-
-<p><img src="/blog/assets/pinmetrics1.png" alt="Metrics - view 1" /></p>
-
-<p><img src="/blog/assets/pinmetrics2.png" alt="Metrics - view 2" /></p>
-
+<p><img src="/blog/assets/pinmetrics1.png" alt="Metrics - view 1"></p>
+<p><img src="/blog/assets/pinmetrics2.png" alt="Metrics - view 2"></p>
 <p>While the number of active users is showing decline (it has dropped almost 10k users from its peak in 2017), we are seeing relentless increase in usage of the service by existing users. Pinboard has a mind-boggling 426M tags on 192M URLs.</p>
-
 <h3 id="my-learnings-from-pinboard-as-a-startup-founder">My learnings from Pinboard as a startup founder</h3>
-
-<p><strong>Niche down</strong> If you build for everyone, you build for no one. Build for a segment that a large Enterprise or VC-backed company will not get into. If Pinboard was VC funded, they would&rsquo;ve been pressured to add Machine Learning. Knowledge Graph. AI-driven newsletter. Collect and sell user data. And many more. Their goal would have become to chase huge growth. I am not sure if there is a business opportunity that huge out there in this space (\$200k annual revenue with probably the achievable Total Addressable Market itself around low tens of millions of dollars is not something that VC-backed companies get into)</p>
-
+<p><strong>Niche down</strong> If you build for everyone, you build for no one. Build for a segment that a large Enterprise or VC-backed company will not get into. If Pinboard was VC funded, they would&rsquo;ve been pressured to add Machine Learning. Knowledge Graph. AI-driven newsletter. Collect and sell user data. And many more. Their goal would have become to chase huge growth. I am not sure if there is a business opportunity that huge out there in this space ($200k annual revenue with probably the achievable Total Addressable Market itself around low tens of millions of dollars is not something that VC-backed companies get into)</p>
 <p><strong>Quality user base over quantity</strong> Focus on getting an initial surge of passionate users, who use the product for its usage and not for the coolness factor. (My understanding is: a significant proportion of early Pinboard users came from Delicious - which, in a tryst of fate, Pinboard acquired many years later).</p>
-
 <p><strong>A company of one</strong> A one-person company can build a meaningful product/tool for a small userbase.</p>
-
 <p><strong>Help customers help themselves</strong> Rather than helping them directly, have them participate in the process. Pocket tried to solve it all, while Pinboard firmly stuck to the former.</p>
-
 <p><strong>Use boring technology</strong> Pinboard uses PHP and MySQL.</p>
-
 <p><strong>Death by features</strong> Don&rsquo;t drive out your user-base by building out too many features. Maciej is a brilliant programmer. In 10 years, he could&rsquo;ve added infinitely more features. And ended up with exactly 0 users. The success of a company is not contingent upon the next feature you build. If that is what you are currently thinking - go back to the drawing board on the value prop. Invariably, you will have to either change the product entirely or the audience segment (in many cases - both)</p>
-
 <p><strong>Don&rsquo;t die</strong> Very importantly, by charging subscriptions, I know that the company will exist. If it was chasing growth or go bust strategy, I would be very anxious.</p>
-
 <p>Pinboard just turned 10. Wishing it a happy birthday and am very grateful to Maciej for inspiring a whole set of founders to build something meaningful that users want.</p>
-
 <p><em>I typically post on startups and Machine Learning. Please follow me on <a href="https://twitter.com/bargava">twitter</a> for more articles.</em></p>
 
         
@@ -131,11 +110,11 @@
         <div class="post-pagination dt w-100 mt4 mb2">
   
     <a class="prev dtc pr2 tl v-top fw6"
-    href="/blog/grammarly-for-design/">&larr; Need Grammarly for Design</a>
+    href="//localhost:1313/blog/grammarly-for-design/">&larr; Need Grammarly for Design</a>
   
   
     <a class="next dtc pl2 tr v-top fw6"
-    href="/blog/saas-copy-counter/">Word Count of SaaS sites &rarr;</a>
+    href="//localhost:1313/blog/saas-copy-counter/">Word Count of SaaS sites &rarr;</a>
   
 </div>
 
@@ -147,7 +126,7 @@
 <footer class="site-footer pa4 bt b--transparent" role="contentinfo">
   <nav class="db dt-l w-100">
     <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
-      &copy; 2020 Bargava, Bangalore, India
+      &copy; 2025 Bargava, Bangalore, India
       <br />
       
 Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
