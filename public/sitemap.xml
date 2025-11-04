@@ -3,13 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//localhost:1313/categories/</loc>
-    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-04T19:16:06+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/indian-english-movies/</loc>
+    <lastmod>2025-11-04T19:16:06+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/series/</loc>
-    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-04T19:16:06+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/startup-idea/</loc>
+    <lastmod>2025-11-04T19:16:06+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/series/startup-idea/</loc>
+    <lastmod>2025-11-04T19:16:06+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/startup-idea/</loc>
+    <lastmod>2025-11-04T19:16:06+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
-    <lastmod>2025-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-04T19:16:06+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/blog/this-vc-writes-for-shoggoths/</loc>
     <lastmod>2025-10-30T00:00:00+00:00</lastmod>
@@ -51,15 +63,6 @@
     <lastmod>2020-07-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/blog/disrupt-enterprise-search/</loc>
-    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/startup-idea/</loc>
-    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/series/startup-idea/</loc>
-    <lastmod>2020-07-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/startup-idea/</loc>
     <lastmod>2020-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/growth-hack/</loc>
