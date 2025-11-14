@@ -6,8 +6,15 @@
     <description>Recent content in Growth Hack on A ML engineer</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/series/growth-hack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quantity over Quality</title>
+      <link>//localhost:1313/blog/quantity-over-quality/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/quantity-over-quality/</guid>
+      <description>&lt;p&gt;I often get questions on how to create short and quick projects. Specifically, I get this question even more: &lt;em&gt;Why should we build short and quick projects? Aren&amp;rsquo;t we supposed to build mastery?&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;To this, let me start with this story. One you might&amp;rsquo;ve heard before. But still, worth repeating and reading it again.&lt;/p&gt;&#xA;&lt;p&gt;A semester-long pottery class meets on the first day. The professor splits the room cleanly down the middle: the left side will be graded on quantity, the right side on quality.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Crush it on Twitter</title>
       <link>//localhost:1313/blog/create-twitter-audience/</link>

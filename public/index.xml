@@ -6,12 +6,19 @@
     <description>Recent content in Bargava Subramanian on A ML engineer</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Nov 2025 10:18:26 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quantity over Quality</title>
+      <link>//localhost:1313/blog/quantity-over-quality/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blog/quantity-over-quality/</guid>
+      <description>&lt;p&gt;I often get questions on how to create short and quick projects. Specifically, I get this question even more: &lt;em&gt;Why should we build short and quick projects? Aren&amp;rsquo;t we supposed to build mastery?&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;To this, let me start with this story. One you might&amp;rsquo;ve heard before. But still, worth repeating and reading it again.&lt;/p&gt;&#xA;&lt;p&gt;A semester-long pottery class meets on the first day. The professor splits the room cleanly down the middle: the left side will be graded on quantity, the right side on quality.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>2025 LLM Timeline</title>
       <link>//localhost:1313/blog/llm-timeline/</link>
-      <pubDate>Fri, 14 Nov 2025 10:18:26 +0000</pubDate>
+      <pubDate>Thu, 13 Nov 2025 10:18:26 +0000</pubDate>
       <guid>//localhost:1313/blog/llm-timeline/</guid>
       <description>&lt;p&gt;I vibe coded an interactive timeline that lines up major OpenAI and Google Gemini launches in 2025.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;//localhost:1313/timeline/&#34;&gt;Explore the full interactive timeline&lt;/a&gt; to see both tracks and hover for details.&lt;/p&gt;</description>
     </item>

@@ -23,6 +23,13 @@
       <description></description>
     </item>
     <item>
+      <title>Growth-Hack</title>
+      <link>//localhost:1313/tags/growth-hack/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/tags/growth-hack/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Startup-Idea</title>
       <link>//localhost:1313/tags/startup-idea/</link>
       <pubDate>Tue, 04 Nov 2025 19:16:06 +0530</pubDate>
@@ -41,13 +48,6 @@
       <link>//localhost:1313/tags/personal/</link>
       <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/tags/personal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Growth-Hack</title>
-      <link>//localhost:1313/tags/growth-hack/</link>
-      <pubDate>Thu, 16 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/growth-hack/</guid>
       <description></description>
     </item>
   </channel>

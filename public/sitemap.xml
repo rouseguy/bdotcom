@@ -20,10 +20,22 @@
     <loc>//localhost:1313/tags/</loc>
     <lastmod>2025-11-14T10:18:26+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blog/indian-english-movies/</loc>
-    <lastmod>2025-11-04T19:16:06+05:30</lastmod>
+    <loc>//localhost:1313/categories/growth-hack/</loc>
+    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/series/growth-hack/</loc>
+    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/growth-hack/</loc>
+    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/quantity-over-quality/</loc>
+    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/series/</loc>
+    <lastmod>2025-11-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/indian-english-movies/</loc>
     <lastmod>2025-11-04T19:16:06+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/startup-idea/</loc>
@@ -76,15 +88,6 @@
   </url><url>
     <loc>//localhost:1313/blog/disrupt-enterprise-search/</loc>
     <lastmod>2020-07-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/growth-hack/</loc>
-    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/series/growth-hack/</loc>
-    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/growth-hack/</loc>
-    <lastmod>2020-04-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/blog/create-twitter-audience/</loc>
     <lastmod>2020-04-16T00:00:00+00:00</lastmod>

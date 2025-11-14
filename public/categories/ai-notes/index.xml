@@ -13,7 +13,7 @@
       <link>//localhost:1313/blog/llm-timeline/</link>
       <pubDate>Fri, 14 Nov 2025 10:18:26 +0000</pubDate>
       <guid>//localhost:1313/blog/llm-timeline/</guid>
-      <description>&lt;p&gt;I built an interactive timeline that lines up major OpenAI and Google Gemini launches, plus the most likely release windows for their next models. It pulls together public rumors, official roadmaps, and the cadence from last year to make side-by-side comparisons easier.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;//localhost:1313/timeline/&#34;&gt;Explore the full interactive timeline&lt;/a&gt; to see both tracks, hover for details, and skim the upcoming milestones.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I vibe coded an interactive timeline that lines up major OpenAI and Google Gemini launches in 2025.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;//localhost:1313/timeline/&#34;&gt;Explore the full interactive timeline&lt;/a&gt; to see both tracks and hover for details.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
