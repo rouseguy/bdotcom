@@ -1,0 +1,842 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>2025 LLM Timelines: OpenAI & Google Gemini</title>
+        <style>
+            :root {
+                --bg: #020617; /* dark navy */
+                --bg-alt: #02091b;
+                --axis: #1f2937;
+                --accent-openai: #38bdf8;
+                --accent-gemini: #a855f7;
+                --text-main: #e5e7eb;
+                --text-muted: #9ca3af;
+                --card-bg: #020617;
+                --card-border: #1f2937;
+                --dot-size: 14px;
+            }
+
+            * {
+                box-sizing: border-box;
+                font-family:
+                    system-ui,
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    "SF Pro Text",
+                    "Segoe UI",
+                    sans-serif;
+            }
+
+            body {
+                margin: 0;
+                padding: 24px;
+                background: radial-gradient(
+                    circle at top,
+                    #0b1120 0,
+                    var(--bg) 55%,
+                    #000 100%
+                );
+                color: var(--text-main);
+            }
+
+            h1 {
+                margin: 0 0 6px;
+                font-size: 24px;
+                letter-spacing: 0.04em;
+            }
+
+            h2.section-title {
+                margin: 32px 0 6px;
+                font-size: 20px;
+                letter-spacing: 0.04em;
+            }
+
+            .subheading {
+                margin-bottom: 20px;
+                color: var(--text-muted);
+                font-size: 13px;
+                text-transform: uppercase;
+                letter-spacing: 0.18em;
+            }
+
+            .layout {
+                display: grid;
+                grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+                gap: 24px;
+                max-width: 1120px;
+                margin: 0 auto;
+            }
+
+            @media (max-width: 768px) {
+                .layout {
+                    grid-template-columns: 1fr;
+                }
+            }
+
+            /* Timeline shell */
+            .timeline-shell {
+                background: linear-gradient(145deg, #020617, #020814);
+                border-radius: 18px;
+                border: 1px solid rgba(15, 23, 42, 0.9);
+                padding: 18px 18px 28px;
+                box-shadow:
+                    0 0 0 1px rgba(15, 23, 42, 0.75),
+                    0 18px 45px rgba(15, 23, 42, 0.9);
+            }
+
+            .timeline-header {
+                display: flex;
+                align-items: baseline;
+                justify-content: space-between;
+                margin-bottom: 16px;
+                gap: 8px;
+            }
+
+            .timeline-title {
+                font-size: 14px;
+                font-weight: 500;
+                color: var(--text-main);
+            }
+
+            .timeline-year {
+                font-size: 11px;
+                color: var(--text-muted);
+                text-transform: uppercase;
+                letter-spacing: 0.2em;
+            }
+
+            /* Timeline strip */
+            .timeline-base {
+                position: relative;
+                width: 100%;
+                height: 140px;
+                margin-top: 10px;
+                padding: 26px 4px 10px;
+            }
+
+            .axis {
+                position: absolute;
+                top: 60px;
+                left: 0;
+                right: 0;
+                height: 2px;
+                background: linear-gradient(
+                    to right,
+                    transparent,
+                    var(--axis),
+                    transparent
+                );
+                box-shadow: 0 0 25px rgba(15, 23, 42, 0.8);
+            }
+
+            .axis-glow {
+                position: absolute;
+                top: 60px;
+                left: 4%;
+                right: 4%;
+                height: 2px;
+                background: radial-gradient(
+                    circle at center,
+                    rgba(148, 163, 184, 0.55),
+                    transparent 70%
+                );
+                opacity: 0.35;
+                pointer-events: none;
+            }
+
+            .event-dot {
+                position: absolute;
+                left: 0;
+                transform: translate(-50%, -50%);
+                width: var(--dot-size);
+                height: var(--dot-size);
+                border-radius: 999px;
+                border: 2px solid rgba(15, 23, 42, 0.9);
+                cursor: pointer;
+                box-shadow:
+                    0 0 0 1px rgba(15, 23, 42, 0.9),
+                    0 0 18px rgba(148, 163, 184, 0.9);
+                transition:
+                    transform 120ms ease-out,
+                    box-shadow 120ms ease-out,
+                    background 120ms ease-out;
+            }
+
+            /* Dot vertical bands */
+            .event-dot.pos-top {
+                top: 56px; /* slightly above axis */
+            }
+
+            .event-dot.pos-bottom {
+                top: 64px; /* slightly below axis */
+            }
+
+            .event-dot::after {
+                content: attr(data-short);
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                font-size: 10px;
+                color: var(--text-muted);
+                white-space: nowrap;
+                pointer-events: none;
+                top: var(--label-offset, -22px); /* per-dot label offset */
+            }
+
+            .event-dot:hover {
+                transform: translate(-50%, -50%) scale(1.12);
+                box-shadow:
+                    0 0 0 1px rgba(148, 163, 184, 0.5),
+                    0 0 24px rgba(148, 163, 184, 1);
+            }
+
+            .event-dot.active {
+                transform: translate(-50%, -50%) scale(1.15);
+                box-shadow:
+                    0 0 0 1px rgba(148, 163, 184, 0.7),
+                    0 0 30px rgba(148, 163, 184, 1);
+            }
+
+            /* Month labels */
+            .axis-labels {
+                position: absolute;
+                top: 100px;
+                left: 0;
+                right: 0;
+                display: flex;
+                justify-content: space-between;
+                font-size: 10px;
+                color: var(--text-muted);
+                padding: 0 4%;
+            }
+
+            /* Details panel */
+            .details-card {
+                background: radial-gradient(
+                    circle at top left,
+                    #02091e,
+                    var(--bg-alt)
+                );
+                border: 1px solid var(--card-border);
+                border-radius: 18px;
+                padding: 18px 18px 20px;
+                box-shadow:
+                    0 0 0 1px rgba(15, 23, 42, 0.8),
+                    0 16px 40px rgba(15, 23, 42, 0.95);
+                max-height: 260px;
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            .details-pill {
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                font-size: 10px;
+                text-transform: uppercase;
+                letter-spacing: 0.16em;
+                color: var(--accent-openai);
+                background: rgba(15, 23, 42, 0.9);
+                border-radius: 999px;
+                padding: 4px 10px;
+            }
+
+            .details-pill.gemini {
+                color: var(--accent-gemini);
+            }
+
+            .details-pill-dot {
+                width: 8px;
+                height: 8px;
+                border-radius: 999px;
+                background: var(--accent-openai);
+                box-shadow: 0 0 10px rgba(56, 189, 248, 0.7);
+            }
+
+            .details-pill-dot.gemini {
+                background: var(--accent-gemini);
+                box-shadow: 0 0 10px rgba(168, 85, 247, 0.7);
+            }
+
+            .details-title {
+                margin: 4px 0 0;
+                font-size: 16px;
+            }
+
+            .details-date {
+                font-size: 11px;
+                color: var(--text-muted);
+                text-transform: uppercase;
+                letter-spacing: 0.16em;
+            }
+
+            .details-description {
+                font-size: 13px;
+                line-height: 1.5;
+                margin-top: 8px;
+                color: #d1d5db;
+            }
+
+            .details-tagline {
+                margin-top: 10px;
+                font-size: 11px;
+                color: var(--text-muted);
+                font-style: italic;
+            }
+
+            .legend {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                margin-top: 10px;
+                font-size: 11px;
+                color: var(--text-muted);
+            }
+
+            .legend-item {
+                display: inline-flex;
+                align-items: center;
+                gap: 5px;
+                padding: 4px 8px;
+                border-radius: 999px;
+                border: 1px solid rgba(15, 23, 42, 0.9);
+                background: rgba(15, 23, 42, 0.8);
+            }
+
+            .legend-dot {
+                width: 8px;
+                height: 8px;
+                border-radius: 999px;
+                background: var(--accent-openai);
+            }
+
+            .legend-dot.gemini {
+                background: var(--accent-gemini);
+            }
+
+            .legend-dot-rollback {
+                width: 8px;
+                height: 8px;
+                border-radius: 999px;
+                border: 1px dashed var(--accent-openai);
+            }
+
+            .meta-note {
+                margin-top: 6px;
+                font-size: 10px;
+                color: var(--text-muted);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>2025 LLM Launches & Key Changes</h1>
+        <div class="subheading">OpenAI · Google Gemini · Timeline</div>
+
+        <!-- OpenAI section -->
+        <h2 class="section-title">OpenAI LLM launches & versions</h2>
+        <div class="layout">
+            <!-- Timeline side -->
+            <div class="timeline-shell">
+                <div class="timeline-header">
+                    <div class="timeline-title">Model & platform events</div>
+                    <div class="timeline-year">2025 · OPENAI</div>
+                </div>
+
+                <div id="timeline-openai" class="timeline-base">
+                    <div class="axis"></div>
+                    <div class="axis-glow"></div>
+                    <div class="axis-labels">
+                        <span>Jan</span>
+                        <span>Mar</span>
+                        <span>May</span>
+                        <span>Jul</span>
+                        <span>Sep</span>
+                        <span>Nov</span>
+                    </div>
+                </div>
+
+                <div class="legend">
+                    <div class="legend-item">
+                        <span class="legend-dot"></span> Launch / major update
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-dot-rollback"></span> Operational
+                        change (rollback)
+                    </div>
+                </div>
+
+                <div class="meta-note">
+                    Dates use OpenAI blogs & release notes. GPT-5 rollout starts
+                    on August 7, 2025.
+                </div>
+            </div>
+
+            <!-- Details side -->
+            <div class="details-card">
+                <div class="details-pill">
+                    <div class="details-pill-dot"></div>
+                    <span id="openai-details-type">MODEL</span>
+                </div>
+                <div id="openai-details-date" class="details-date"></div>
+                <h3 id="openai-details-title" class="details-title"></h3>
+                <div
+                    id="openai-details-description"
+                    class="details-description"
+                ></div>
+                <div id="openai-details-tagline" class="details-tagline"></div>
+            </div>
+        </div>
+
+        <!-- Gemini section -->
+        <h2 class="section-title">Google Gemini LLM launches & versions</h2>
+        <div class="layout">
+            <!-- Timeline side -->
+            <div class="timeline-shell">
+                <div class="timeline-header">
+                    <div class="timeline-title">Model & app events</div>
+                    <div class="timeline-year">2025 · GEMINI</div>
+                </div>
+
+                <div id="timeline-gemini" class="timeline-base">
+                    <div class="axis"></div>
+                    <div class="axis-glow"></div>
+                    <div class="axis-labels">
+                        <span>Jan</span>
+                        <span>Mar</span>
+                        <span>May</span>
+                        <span>Jul</span>
+                        <span>Sep</span>
+                        <span>Nov</span>
+                    </div>
+                </div>
+
+                <div class="legend">
+                    <div class="legend-item">
+                        <span class="legend-dot gemini"></span> Launch / major
+                        update
+                    </div>
+                </div>
+
+                <div class="meta-note">
+                    Dates use Google DeepMind blogs, Gemini API changelog, and
+                    official docs.
+                </div>
+            </div>
+
+            <!-- Details side -->
+            <div class="details-card">
+                <div class="details-pill gemini">
+                    <div class="details-pill-dot gemini"></div>
+                    <span id="gemini-details-type">MODEL</span>
+                </div>
+                <div id="gemini-details-date" class="details-date"></div>
+                <h3 id="gemini-details-title" class="details-title"></h3>
+                <div
+                    id="gemini-details-description"
+                    class="details-description"
+                ></div>
+                <div id="gemini-details-tagline" class="details-tagline"></div>
+            </div>
+        </div>
+
+        <script>
+            // ---------- OpenAI events ----------
+            const openaiEvents = [
+                {
+                    id: "o3-mini",
+                    short: "o3-mini",
+                    title: "OpenAI o3-mini",
+                    date: "2025-01-31",
+                    type: "Reasoning model",
+                    category: "launch",
+                    tagline:
+                        "Cost-efficient reasoning tuned for math, science, and code.",
+                    description:
+                        "Launch of o3-mini, a cost-efficient reasoning model with adjustable reasoning effort (low / medium / high) in the API, optimized for coding, math, and science, and available in ChatGPT.",
+                },
+                {
+                    id: "gpt-4-5",
+                    short: "4.5",
+                    title: "GPT-4.5 research preview",
+                    date: "2025-02-27",
+                    type: "Foundation model",
+                    category: "launch",
+                    tagline:
+                        "Scaled unsupervised learning with better EQ and instruction following.",
+                    description:
+                        "OpenAI introduces GPT-4.5 as a research preview: a large, compute-heavy model that scales unsupervised learning, improves pattern recognition and creativity, and offers better instruction following and emotional tone, first for Pro users and via the API.",
+                },
+                {
+                    id: "gpt-4-1-api",
+                    short: "4.1 API",
+                    title: "GPT-4.1 family in the API",
+                    date: "2025-04-14",
+                    type: "API release",
+                    category: "launch",
+                    tagline:
+                        "New 4.1 family with 1M-token context and strong coding.",
+                    description:
+                        "Launch of GPT-4.1, 4.1 mini, and 4.1 nano in the API. These models deliver major gains in coding, instruction following, and long-context performance, with context windows up to 1 million tokens.",
+                },
+                {
+                    id: "o3-o4-mini",
+                    short: "o3 / o4-mini",
+                    title: "OpenAI o3 & o4-mini",
+                    date: "2025-04-16",
+                    type: "Reasoning models",
+                    category: "launch",
+                    tagline:
+                        "Frontier reasoning plus a fast, benchmark-dominant small model.",
+                    description:
+                        "Release of o3 as the frontier reasoning model and o4-mini as a smaller, fast, cost-efficient reasoning model. o4-mini achieves state-of-the-art scores on AIME 2024/2025 and outperforms o3-mini on many tasks.",
+                },
+                {
+                    id: "gpt-4-1-chatgpt",
+                    short: "4.1 ChatGPT",
+                    title: "GPT-4.1 in ChatGPT",
+                    date: "2025-05-14",
+                    type: "ChatGPT update",
+                    category: "launch",
+                    tagline:
+                        "4.1 and 4.1 mini become available in the ChatGPT model picker.",
+                    description:
+                        "GPT-4.1 is released in ChatGPT for Plus / Pro / Team users and GPT-4.1 mini replaces GPT-4o mini. 4.1 is positioned as a strong coding and instruction-following model and as an alternative to o3 / o4-mini for simpler coding tasks.",
+                },
+                {
+                    id: "o4-mini-rollback",
+                    short: "rollback",
+                    title: "o4-mini snapshot rollback",
+                    date: "2025-06-06",
+                    type: "Operational change",
+                    category: "rollback",
+                    tagline:
+                        "Not a new model; a safety-driven rollback of a bad snapshot.",
+                    description:
+                        "A recently deployed o4-mini snapshot is rolled back after automated monitoring detects increased content flags. The underlying model family remains the same; this is a product-safety and quality rollback.",
+                },
+                {
+                    id: "o3-pro",
+                    short: "o3-pro",
+                    title: "OpenAI o3-pro",
+                    date: "2025-06-10",
+                    type: "Reasoning model",
+                    category: "launch",
+                    tagline:
+                        "Longer-thinking o3 variant prioritized for reliability.",
+                    description:
+                        "o3-pro, a longer-thinking version of o3, launches in ChatGPT and the API. It is preferred over o1-pro and o3 in expert evaluations across domains like math, science, coding, and complex problem-solving.",
+                },
+                {
+                    id: "gpt-oss",
+                    short: "gpt-oss",
+                    title: "gpt-oss-120b & gpt-oss-20b",
+                    date: "2025-08-05",
+                    type: "Open-weight models",
+                    category: "launch",
+                    tagline:
+                        "Open-weight reasoning models for self-hosted and custom deployments.",
+                    description:
+                        "OpenAI releases gpt-oss-120b and gpt-oss-20b as open-weight reasoning models. They support function calling and structured outputs, and can be fine-tuned or hosted by users or third-party providers under a permissive license.",
+                },
+                {
+                    id: "gpt-5",
+                    short: "GPT-5",
+                    title: "GPT-5 rollout in ChatGPT",
+                    date: "2025-08-07",
+                    type: "Flagship model",
+                    category: "launch",
+                    tagline:
+                        "GPT-5 becomes the default auto-switching flagship in ChatGPT.",
+                    description:
+                        "GPT-5 starts rolling out as the new flagship model and default for logged-in ChatGPT users. The system auto-routes between GPT-5 variants, and paid tiers can explicitly select GPT-5 or GPT-5 Thinking (and higher-tier reasoning options) in the model picker.",
+                },
+                {
+                    id: "gpt-5-codex",
+                    short: "5-Codex",
+                    title: "GPT-5-codex",
+                    date: "2025-09-15",
+                    type: "Coding model",
+                    category: "launch",
+                    tagline:
+                        "Agentic coding variant for Codex and later the Responses API.",
+                    description:
+                        "GPT-5-codex is introduced as a GPT-5 variant optimized for agentic coding in Codex: default for many cloud coding tasks and selectable for local workflows. On September 23 it becomes available in the Responses API as well.",
+                },
+                {
+                    id: "gpt-5-1",
+                    short: "5.1",
+                    title: "GPT-5.1",
+                    date: "2025-11-12",
+                    type: "Model upgrade",
+                    category: "launch",
+                    tagline:
+                        "Upgrades GPT-5 Instant & Thinking for style, reasoning, and speed.",
+                    description:
+                        "GPT-5.1 updates GPT-5 Instant and GPT-5 Thinking, improving conversational style, adaptive reasoning, and speed. It focuses on clearer, more grounded answers, smoother control over reasoning depth, and better alignment with user intent.",
+                },
+            ];
+
+            // ---------- Gemini events ----------
+            const geminiEvents = [
+                {
+                    id: "g2-flash",
+                    short: "2.0 Flash",
+                    title: "Gemini 2.0 Flash",
+                    date: "2025-01-30",
+                    type: "Model (app default)",
+                    category: "launch",
+                    tagline:
+                        "New default in the Gemini app, replacing 1.5 Flash.",
+                    description:
+                        "Gemini 2.0 Flash becomes the default model in the Gemini app, superseding Gemini 1.5 Flash. It delivers faster responses and stronger performance across everyday tasks like brainstorming, learning, and writing.",
+                },
+                {
+                    id: "g2-pro",
+                    short: "2.0 Pro",
+                    title: "Gemini 2.0 Pro (experimental)",
+                    date: "2025-02-05",
+                    type: "Higher-capability model",
+                    category: "launch",
+                    tagline:
+                        "Higher-capability 2.0 tier for complex prompts and coding.",
+                    description:
+                        "Google announces Gemini 2.0 Pro as an experimental higher-capability model with strong coding and complex-prompt handling, available via Google AI Studio, Vertex AI, and to Gemini Advanced users.",
+                },
+                {
+                    id: "g2-flash-thinking",
+                    short: "Flash Thinking",
+                    title: "Gemini 2.0 Flash Thinking Experimental",
+                    date: "2025-02-05",
+                    type: "Thinking model",
+                    category: "launch",
+                    tagline:
+                        "First Gemini 'thinking' variant exposing structured reasoning traces.",
+                    description:
+                        "Gemini 2.0 Flash Thinking Experimental is introduced as the first 'thinking' Gemini model: a Flash variant that reasons before answering and can surface structured reasoning traces to users in the Gemini app.",
+                },
+                {
+                    id: "g25-pro-exp",
+                    short: "2.5 Pro (exp)",
+                    title: "Gemini 2.5 Pro Experimental",
+                    date: "2025-03-25",
+                    type: "Thinking model",
+                    category: "launch",
+                    tagline:
+                        "Debut of 2.5 thinking generation with top reasoning benchmarks.",
+                    description:
+                        "Gemini 2.5 Pro Experimental launches as Google's most intelligent model to date, a multimodal 'thinking' model with strong reasoning and coding, leading human-preference leaderboards and long-context benchmarks.",
+                },
+                {
+                    id: "g25-stable",
+                    short: "2.5 GA",
+                    title: "Gemini 2.5 (stable)",
+                    date: "2025-06-17",
+                    type: "Stable release",
+                    category: "launch",
+                    tagline:
+                        "Gemini 2.5 Pro and 2.5 Flash reach stable GA status.",
+                    description:
+                        "Gemini 2.5 Pro is promoted from preview to a stable, generally available model, and Gemini 2.5 Flash is released as the first stable 2.5 Flash model. Both include built-in thinking capabilities and adaptive reasoning.",
+                },
+            ];
+
+            // ---------- Generic timeline renderer with fixed 2025 domain ----------
+            function createTimeline(events, config) {
+                const {
+                    timelineId,
+                    detailsIds,
+                    accentColor,
+                    rollbackBorderColor,
+                    yearStart,
+                    yearEnd,
+                } = config;
+
+                const timelineEl = document.getElementById(timelineId);
+                const detailsTitleEl = document.getElementById(
+                    detailsIds.title,
+                );
+                const detailsDateEl = document.getElementById(detailsIds.date);
+                const detailsTypeEl = document.getElementById(detailsIds.type);
+                const detailsDescEl = document.getElementById(
+                    detailsIds.description,
+                );
+                const detailsTaglineEl = document.getElementById(
+                    detailsIds.tagline,
+                );
+
+                if (!timelineEl) return;
+
+                // Parse dates
+                events.forEach((ev) => {
+                    ev.dateObj = new Date(ev.date + "T00:00:00Z");
+                });
+                events.sort((a, b) => a.dateObj - b.dateObj);
+
+                // Full-year domain for 2025
+                const domainStart = new Date(
+                    (yearStart || "2025-01-01") + "T00:00:00Z",
+                );
+                const domainEnd = new Date(
+                    (yearEnd || "2025-12-31") + "T00:00:00Z",
+                );
+                const spanMs = domainEnd - domainStart || 1;
+
+                function dateToPercent(dateObj) {
+                    const t = (dateObj - domainStart) / spanMs;
+                    const tClamped = Math.max(0, Math.min(1, t));
+                    return 4 + tClamped * 92; // keep margins
+                }
+
+                let activeId = null;
+
+                function setActiveEvent(id) {
+                    activeId = id;
+                    const ev = events.find((e) => e.id === id);
+                    if (!ev) return;
+
+                    // Update dots
+                    timelineEl.querySelectorAll(".event-dot").forEach((dot) => {
+                        dot.classList.toggle(
+                            "active",
+                            dot.getAttribute("data-id") === id,
+                        );
+                    });
+
+                    // Update details panel
+                    const dateStr = ev.dateObj.toLocaleDateString(undefined, {
+                        year: "numeric",
+                        month: "short",
+                        day: "numeric",
+                    });
+
+                    detailsTitleEl.textContent = ev.title;
+                    detailsDateEl.textContent = dateStr.toUpperCase();
+                    detailsTypeEl.textContent = ev.type.toUpperCase();
+                    detailsDescEl.textContent = ev.description;
+                    detailsTaglineEl.textContent = ev.tagline;
+                }
+
+                // Helpers for label stacking on each side
+                const topLabels = [];
+                const bottomLabels = [];
+                const labelGap = 6; // min gap in % between same-level labels
+
+                function pickLevel(labelStore, xPercent) {
+                    let level = 0;
+                    let foundConflict = true;
+
+                    while (foundConflict && level < 4) {
+                        foundConflict = false;
+                        for (const lbl of labelStore) {
+                            if (
+                                lbl.level === level &&
+                                Math.abs(lbl.x - xPercent) < labelGap
+                            ) {
+                                foundConflict = true;
+                                level++;
+                                break;
+                            }
+                        }
+                    }
+
+                    labelStore.push({ x: xPercent, level });
+                    return level;
+                }
+
+                // Render dots with proximity-based vertical band + label stacking
+                let lastX = null;
+                let lastPos = "pos-top";
+
+                events.forEach((ev) => {
+                    const xPercent = dateToPercent(ev.dateObj);
+
+                    // Decide top vs bottom band based on proximity to last dot
+                    const threshold = 8; // percentage of width considered "close"
+                    let posClass;
+
+                    if (lastX === null) {
+                        posClass = "pos-top";
+                    } else if (Math.abs(xPercent - lastX) < threshold) {
+                        posClass =
+                            lastPos === "pos-top" ? "pos-bottom" : "pos-top";
+                    } else {
+                        posClass = "pos-top";
+                    }
+
+                    lastX = xPercent;
+                    lastPos = posClass;
+
+                    const dot = document.createElement("button");
+                    dot.className = "event-dot " + posClass;
+                    dot.style.left = xPercent + "%";
+                    dot.setAttribute("type", "button");
+                    dot.setAttribute("data-id", ev.id);
+                    dot.setAttribute("data-short", ev.short);
+
+                    // Label level & vertical offset
+                    let level, offset;
+                    if (posClass === "pos-top") {
+                        level = pickLevel(topLabels, xPercent);
+                        offset = -22 - level * 14; // stack upwards
+                    } else {
+                        level = pickLevel(bottomLabels, xPercent);
+                        offset = 18 + level * 14; // stack downwards
+                    }
+                    dot.style.setProperty("--label-offset", offset + "px");
+
+                    // Color accent
+                    dot.style.background = `radial-gradient(circle at 30% 20%, #f9fafb, ${accentColor} 45%, #020617 100%)`;
+                    dot.style.boxShadow = `0 0 0 1px rgba(15,23,42,0.9), 0 0 18px ${accentColor}99`;
+
+                    // Rollback styling (for OpenAI o4-mini rollback)
+                    if (ev.category === "rollback") {
+                        dot.style.background =
+                            "radial-gradient(circle at 30% 20%, #0f172a, #1e293b 45%, #020617 100%)";
+                        dot.style.borderStyle = "dashed";
+                        dot.style.boxShadow = `0 0 0 1px rgba(15,23,42,0.9), 0 0 18px ${rollbackBorderColor || accentColor}88`;
+                    }
+
+                    dot.addEventListener("click", () => setActiveEvent(ev.id));
+                    timelineEl.appendChild(dot);
+                });
+
+                // Default to latest event
+                setActiveEvent(events[events.length - 1].id);
+            }
+
+            // Instantiate both timelines with fixed 2025 domain
+            createTimeline(openaiEvents, {
+                timelineId: "timeline-openai",
+                detailsIds: {
+                    title: "openai-details-title",
+                    date: "openai-details-date",
+                    type: "openai-details-type",
+                    description: "openai-details-description",
+                    tagline: "openai-details-tagline",
+                },
+                accentColor: "rgba(56,189,248,1)", // OpenAI blue
+                rollbackBorderColor: "rgba(56,189,248,1)",
+                yearStart: "2025-01-01",
+                yearEnd: "2025-12-31",
+            });
+
+            createTimeline(geminiEvents, {
+                timelineId: "timeline-gemini",
+                detailsIds: {
+                    title: "gemini-details-title",
+                    date: "gemini-details-date",
+                    type: "gemini-details-type",
+                    description: "gemini-details-description",
+                    tagline: "gemini-details-tagline",
+                },
+                accentColor: "rgba(168,85,247,1)", // Gemini purple
+                rollbackBorderColor: "rgba(168,85,247,1)",
+                yearStart: "2025-01-01",
+                yearEnd: "2025-12-31",
+            });
+        </script>
+    </body>
+</html>
